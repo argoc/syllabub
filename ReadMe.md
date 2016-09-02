@@ -1,18 +1,7 @@
-## Simple site: Easy websites with GitHub pages
+## Syllabub : Syllabi of Amelia Garripoli, Professor of Information Systems at Olympic College
 
-[Github Pages](http://pages.github.com) provide a simple way to make a
-website using Markdown and git.
-
-This is a minimal tutorial to get started.
-
-View the thing [here](http://kbroman.org/simple_site).
+View the site [here](http://argoc.github.io/syllabub).
 
 ---
 
-To the extent possible under law,
-[Karl Broman](http://github.com/kbroman)
-has waived all copyright and related or neighboring rights to
-&ldquo;[simple site](http://github.com/kbroman/simple_site)&rdquo;.
-This work is published from the United States.
-<br/>
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+These works are CC-BY-SA-4.0
