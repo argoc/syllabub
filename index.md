@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Olympic College Computer Information Systems
-tagline: Syllabi of Amelia Garripoli
+title: Syllabi of Amelia Garripoli
+tagline: 
 description: Capturing current syllabi (past revs in repo history)
 ---
 
