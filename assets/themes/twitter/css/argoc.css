@@ -9,3 +9,48 @@ code {
 a code {
   color: #08c;
 }
+
+.fa {
+    color:#cc0000;
+    text-shadow: 3px 3px 3px #ccc;
+    font-size: 1.5em;
+}
+ul.bloomlist {
+  list-style-type: none;
+}
+.bloom1:before {
+	content: "\f02d"; /* book */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .5em;
+}
+.bloom2:before {
+	content: "\f0eb"; /* lightbulb-o */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: 1em;
+}
+.bloom3:before {
+	content: "\f02d"; /* wrench */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .5em;
+}
+.bloom4:before {
+	content: "\f085"; /* cogs */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .8em;
+}
+.bloom5:before {
+	content: "\f12e"; /* puzzle-piece */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .5em;
+}
+.bloom6:before {
+	content: "\f091"; /* trophy */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .5em;
+}
