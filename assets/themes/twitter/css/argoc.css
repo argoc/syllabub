@@ -10,6 +10,16 @@ a code {
   color: #08c;
 }
 
+td {
+	padding: 1em;
+}
+
+.tabbords table {
+	border-collapse: collapse;
+	border-width:1;
+	cellpadding: 5px;
+}
+
 .fa {
     color:#cc0000;
     text-shadow: 3px 3px 3px #ccc;
