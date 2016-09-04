@@ -14,10 +14,10 @@ based on the work of Karl Broman with his
 
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Fall 2016
 
-- [CIS219](pages/CIS219.html)
-- [CIS205](pages/CIS205.html)
-- [IS300](pages/IS300.html)
-- [IS330](pages/IS330.html)
+- [CIS219](CIS219)
+- [CIS205](CIS205)
+- [IS300](IS300)
+- [IS330](IS330)
 
 ---
 
