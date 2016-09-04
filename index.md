@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Syllabi of Amelia Garripoli
-tagline: 
 description: Capturing current syllabi (past revs in repo history)
 ---
 
@@ -14,10 +13,10 @@ based on the work of Karl Broman with his
 
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Fall 2016
 
-- [CIS219](CIS219)
-- [CIS205](CIS205)
-- [IS300](IS300)
-- [IS330](IS330)
+- [CIS219](CIS219.html)
+- [CIS205](CIS205.html)
+- [IS300](IS300.html)
+- [IS330](IS330.html)
 
 ---
 
