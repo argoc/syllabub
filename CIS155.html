@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="robots" content="noindex" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- link rel="stylesheet" type="text/css" href="guts/ocx6.css" / -->
+<style>
+body { background: #999999; font-family: Verdana, Arial, sans-serif; }
+header { padding: 10px 40px 10px 40px; background: #999999; margin: -10px -10px 0px -10px; }
+section { width: calc(100% - 320px); margin: 20px 0px 20px 10px; padding: 20px;
+			float: left; background: #ffffff; }
+nav { width: 200px; margin: 20px 10px 20px 20px; padding: 20px; background: #ffffff; 
+			float: right; }
+#navlinks a { display: inline-block; width: 100px; margin: 0px 10px 10px 0px; 
+	text-align: center; padding: 5px 0px; text-decoration: none; background: #ffffff; }
+#navlinks a:hover { color: #ffffff; background: #666666; }
+footer { clear: both; padding: 20px 30px; margin: -10px;
+	background: #333333; color: #ffffff; }
+h3 { color: #cc0000; }
+h4 { color: #cc0000; }	
+p, li { line-height: 135%; }
+ol li { margin-bottom: 10px; }
+a { text-decoration: none; color: #0000cc; }
+a:hover { text-decoration: underline; }
+article { padding: 10px; margin-bottom: 20px; background: #f0f0f0; }
+.required { background: #ddffdd; } 
+#x911 { padding: 10px; background: #ffffdd; }
+#hunits td { padding: 5px; background: #ffffff; }
+.t911 { color: #cc0000; }
+.tGrn { color: #009900; }
+.bRed { background: #ffcccc; }
+.bYlw { background: #ffffdd; }
+.showBig   { display: block; }
+.showSmall { display: none; }
+.noline { text-decoration: none; }
+#privacy { display: none; }
+#about   { display: none; }
+#cidkey  { display: none; }
+textarea { width: 99%; font-size: 125%; padding: 5px; }
+@media screen and (max-width: 800px) {
+	body    { width: 100%; margin: 0%; background: #ffffff; }
+	header  { width: calc(100% - 20px);  margin: 0px; padding: 10px; }
+	#navlinks  {text-align: center; }
+	footer  { width: calc(100% - 20px);  margin: 0px; padding: 10px; }
+	nav     { width: calc(100% - 40px);  margin: 10px 10px 0px 10px; padding: 10px; background: #f0f0f0; }
+	section { width: calc(100% - 20px);  margin: 0px; padding: 10px; }
+	#outlines { display: none; }
+	article { margin-bottom: 10px; }
+	li { margin-left: -15px; }
+	.showSmall { display: block; }
+	.showBig   { display: none; }
+}
+@media screen and (min-width: 1200px) {
+	body { width: 1200px; margin: 0px auto; }
+	section { width: 920px; margin-left: -10px; }		
+	nav     { width: 200px; margin-right: -10px; }		
+}
+@media print {
+	body    { width: 96%; font-size: 8pt; padding: 0px;}
+	section { width: 100%; margin-top: 0px; padding: 0px;}		
+	footer  { display: none; }
+	nav     { display: none; }	
+	#hunits td { padding: 0px; background: #ffffff; }
+	#navlinks { display: none; }		
+	#x911     { display: none; }	
+	#keyerr   { display: none; }	
+	#cidkey   { display: block; }		
+	header  { padding-bottom: 0px; padding-left: 20px; }
+	article { width: 100%; margin-bottom: 2em; padding: 0px; 
+				border-top: 1px solid #000000; }
+}
+</style>
+
+</head>
+<body>
+<title>CIS 155 Syllabus Fall 2016</title><header>
+
+<h1>CIS 155 - Web Development I - Items 2209 &amp; 2211</h1>
+<h2>&#x2605; Class Syllabus</h2>
+
+<section>
+<article><p><b>&#x2261; Page index: </b><br/><a href="#Contacts">Contacts</a> /
+<a href="#Outcomes">Outcomes</a> /
+<a href="#Text">Textbook</a> /
+<a href="#Schedule">Schedule</a> /
+<a href="#Expectations">Expectations</a> /
+<a href="#Policies">Policies</a> /
+<a href="#Accommodations">Accommodations</a> /
+<a href="#Support">Technical Support</a> /
+<a href="#Grading">Grading</a> /
+<a href="#Assignments">Assignments</a></p></article>
+
+<article id="Contacts"><h3>
+&#x2605; Contacts:
+</h3>
+<ul>
+<li><b>Instructor:</b> Amelia Garripoli, MSCS (DB) </li>
+<li><b>Office:</b> Room 210 in the Technical Building (Bremerton)</li>
+<li><b>Office Hours: </b>Mon/Thur 12:00pm-12:50pm or by arrangement</li>
+<li><b>Phone:</b> (360) 475-7588</li>
+<li><b>Skype:</b> agarripoli.olympic (for online office hours or appointments</li>
+<li><b>Mail:</b>  Amelia Garripoli (B&amp;T), 1600 Chester Ave, Bremerton, WA 98337-1699</li>
+<li><b>Email:</b> agarripoli@olympic.edu
+    <br/><b class="t911">DO NOT send assignments via email to this address, 
+    they will not be accepted for grading.</b>
+    Please use the appropriate links, unless directed otherwise, in the Assignment section of each unit for 
+    electronic submissions of assignments.
+    I do not access this email account during weekends or breaks.
+	I use email primarily for administrative purposes.
+	<b>The BEST way to contact me is to use <span style="color: #cc0000">the Canvas Inbox</span></b> from the class Web site.
+</li>
+</ul>
+<ul>
+<li><b>Class Web site:</b><br/>https://olympic.instructure.com/<br/>Please check the class Web site often for current class information.
+<br/>All assignments will be posted via the Web through the class Web site unless otherwise noted.
+</li>
+</ul>
+</article>
+
+<article id="Outcomes"><h3>&#x2605; Class Outcomes:</h3>
+<p><b>Description:</b><br/>
+Students will be introduced to basic HTML tags and CSS to develop simple Web sites that integrate media, tables, and forms.
+</p>
+<p>
+By the end of this class, students should be able to:
+</p>
+<ul><li>Explain how Web pages work</li>
+<li>Demonstrate the use of basic HTML</li>
+<li>Demonstrate the use of basic CSS</li>
+<li>Demonstrate the use of basic media integration</li>
+<li>Demonstrate the development of a simple static Web site</li>
+</ul>
+</article>
+
+<article id="Text"><h3>
+&#x2605; Text:
+</h3><p>
+Acquiring the correct text is the students responsibility on or before the start of class. 
+Not having a text will not be an acceptable excuse for not being able to participate in class to turn in assignments on time unless there is a textbook acquisition issue with the OC bookstore.
+If there are no books on the shelf, please consult a staff member and not assume the bookstore is out of textbooks.
+<a href="http://ocbookstore.com" target="_new">OC Bookstore Web site</a>
+(Page will open in a new window.)
+</p><ul><li><b>HTML,CSS+Dynamic HTML-Comprehensive</b><br/>Carey, 9781111526436</li></ul><ul>
+<li><b>HTML5 Pocket Reference</b><br/>Niederst, 9781449363352</li></ul></article>
+
+<article id="Schedule"><h3>
+&#x2605; Course Schedule:
+</h3>
+<p><b style="color: #cc0000;">Please visit the class Web site often for assignments information, due dates, and messages.</b>
+It is suggested you check off assignments once they have been turned in to monitor your progress.
+See the Assignment section near the bottom of this document for assignment details.
+</p><p>
+Late Tickets for this class: 
+<b class="t911">2</b><br/>
+See the <a href="#late-work">Late Work</a> section below for more details using Late Tickets.
+</p><table width="100%" cellpadding="4" border="1" style="border-collapse: collapse;">
+<tr><td class="wek" width="2%">Due</td>
+<td class="wek" width="50%">Unit</td>
+<td class="wek" width="43%">Assignments</td></tr>
+<tr><td>09/27</td><td>Unit 01 Tool Week!</td><td>
+				__U01P</td></tr><tr><td>10/04</td><td>Unit 02 Getting Started with HTML5</td><td>
+				__U02A
+				__U02B
+				__U02C
+				__U02G</td></tr><tr><td>10/11</td><td>Unit 03 Developing a Web site</td><td>
+				__U03A
+				__U03B
+				__U03C
+				__U03G</td></tr><tr><td>10/18</td><td>Unit 04 Designing Web Pages with CSS</td><td>
+				__U04A
+				__U04B
+				__U04C
+				__U04G</td></tr><tr><td>10/25</td><td>Unit 05 Creating Page Layouts with CSS</td><td>
+				__U05A
+				__U05B
+				__U05C
+				__U05G</td></tr><tr><td>11/01</td><td>Unit 06 Working with Tables and Columns</td><td>
+				__U06A
+				__U06B
+				__U06C
+				__U06G</td></tr><tr><td>11/08</td><td>Unit 07 Creating a Web Form</td><td>
+				__U07A
+				__U07B
+				__U07C
+				__U07G</td></tr><tr><td>11/15</td><td>Unit 08 Designing Multimedia Web Sites</td><td>
+				__U08A
+				__U08B
+				__U08C
+				__U08G</td></tr><tr><td>11/22</td><td>Unit 09 Team Week!</td><td/></tr><tr><td>12/01</td><td>Unit 10 Presentations!</td><td>
+				__U10G</td></tr></table></article>
+				
+<article id="Expectations"><h3>
+&#x2605; Computer Expectations:
+</h3><p>
+It is expected that the student will have <b>a basic knowledge of the use of a microcomputer and keyboard at 20wpm with precision</b>. 
+This is *NOT* an introduction to basic computer literacy. A basic understanding of and manipulation of the windows interface is expected. 
+In particular, students should know how to use Windows Explorer (or similar) to manipulate (save, copy, delete, move, etc.) files, have access to the Internet, know how to use your browser, fill out Web forms, use email (including attachments), and similar basic Web skills. 
+If you do not feel comfortable with these basic skills, it is recommended that you consider taking CIS 150 Survey of Computing prior to taking this class to build computer literacy and BSTEC 110 for keyboarding.
+</p><p><b class="t911">
+Please develop a plan "B" in case you have issues with your normal Internet access and related software that might affect your ability to participate in this class.
+</b>
+Computer labs area available at all OC campuses. See the Help! link above for locations and hours.
+</p></article>
+
+<div>
+
+<article id="Policies">
+<h3>
+&#x2605; General Policies:
+</h3>
+
+<p><hr size="1"/></p>
+<p>
+<a href="#help">Ask for help!</a> / 
+<a href="#Netiquette">Netiquette</a> / 
+<a href="#WAC">WAC - Washington Administrative Code</a> / 
+<a href="#CID">Identification</a> / 
+<a href="#asgn">Assignments</a> / 
+<a href="#Due-dates">Due dates</a> / 
+<a href="#Form-Confirmations">Submission Confirmations</a> / 
+<a href="#my-points">Monitor Your Progress</a> / 
+<a href="#late-work">Late work</a> / 
+<a href="#redo">Redo work</a> / 
+<a href="#withdrawing">Withdrawing</a> / 
+<a href="#expectations">Student expectations</a> / 
+<a href="#behavior">Classroom conduct</a> / 
+<a href="#honesty">Academic honesty</a> / 
+<a href="#military">Service members</a> / 
+<a href="#special">Special requests</a> / 
+<a href="#fair-use">Digital media and Fair Use</a> / 
+<a href="#non-Discrimination">Non-Discrimination Statement</a> 
+</p>
+<p><hr size="1"/></p>
+
+<h4 id="help">&#x2714; Ask for help! (It is really OK)</h4>
+<p>
+If you need assistance or are having problems in this class, please visit with me during my office hours in person, by phone, or online (via Skype) so we can discuss your options. If those times don't work for you, send a Canvas message to make an appointment with me.
+I know being a student, especially a new student, can be challenging, confusing, and frustrating at times. The good news is, you can do it! Don't be afraid to ask me, other students, or any OC staff member for help. Seek out other students to create a learning community where you can mutually support each other. We all have our experiences that might help you and each other. Don't be afraid to ask!
+<span class="t911">The BEST WAY WAY TO CONTACT ME is to use the Canvas Inbox from the class Web site.</span> The Canvas Inbox is where I expect to locate student questions and comments. All other methods will take longer as well as not keep a centralized location for all our correspondence for to assist with documentation. I monitor Canvas throughout the day during the quarter and less on weekends and holidays.
+<br/>
+<br/>
+
+<b>If we need to use email, I will use your Olympic College email account.</b>
+<br/> 
+"The President's Council has made the decision that all email messages between students and faculty relating to classroom and/or college issues must use their Olympic College email accounts.  To that end, all OC students are required to use their OC email account." More information on OC email student accounts can be found at: 
+<a href="http://www.olympic.edu/services/computer-labs/accounts">http://www.olympic.edu/services/computer-labs/accounts</a>"
+
+<br/>
+<br/>
+<b>Olympic College Tutorial Services</b> provides help to students who need assistance beyond the classroom. A consortium of faculty and staff coordinates the program. Tutoring is provided in a variety of settings for most disciplines of study and takes place in lab/study centers, small groups and occasionally one-on-one.
+<a href="http://www.olympic.edu/Students/StudentServices/Tutoring/">OC Tutorial Services</a>
+</p>
+
+<h4 id="Netiquette">&#x2714; Netiquette (How to act online)</h4>
+<p>
+Taken from the <a href="http://jolt.merlot.org/vol6no1/mintu-wimsatt_0310.htm">MERLOT Journal of Online Learning and Teaching</a> (under a Creative Commons Attribution-Non-Commercial-Share-Alike License).
+This class will be based on the following interpretation of netiquette.
+<br/>
+<br/>
+Since discussions are instrumental to the success of distance education (Al-Shalchi 2009), it is important that healthy and productive interactive environments are maintained. Otherwise, the repercussions may lead to the general "failure" of the discussion component of the entire course and/or for the remainder of the course. Herein lies the importance of having an established classroom etiquette and/or protocol as well as clearly defined consequences.
+<br/>
+<br/>
+Netiquette, or Internet etiquette, is a way of defining professionalism through network communication.  Its derivation is based on the merging of the words "network" as well as "etiquette;" and, the concept is closely related to ethics (Scheuermann &amp; Taylor 1997). Netiquette refers to a set of core rules that delineates what should and should not be done with regards to online communication in order to maintain common courtesy (Shea 1994). In other words, in a classroom setting, netiquette deals with the proper decorum in online learning and CMD. For virtual classroom purposes, netiquette deals with the notions of respect, harmony and tolerance often manifested in the tone or function of the interactions (Conrad 2002; Curtis and Lawson 2001; Brown 2001).  
+<br/>
+<br/>
+Netiquette is a way of defining professionalism through network communication. 
+<b style="color: #cc0000">"The college may impose disciplinary sanctions against a student who commits, or aids, abets, incites, encourages or assists another person to commit, an act(s) of misconduct."
+</b>
+Please see 
+<a href="http://app.leg.wa.gov/WAC/default.aspx?cite=132C-120-065">WAC 132C-120-065(5)</a>
+concerning cyber misconduct.
+<br/>
+<br/>
+Here are some Student Guidelines for the class:
+<ul>
+<li>Do not dominate any discussion.</li>
+<li>Do not use offensive language.</li>
+<li>Never make fun of someone's ability to read or write.</li>
+<li>Use simple English.</li>
+<li>Use correct spelling and grammar.</li>
+<li>Share tips with other students.</li>
+<li>Keep an "open-mind" and be willing to express even your minority opinion.</li>
+<li>Be aware of the OC's Academic Honesty Policy. 
+(See <a href="http://app.leg.wa.gov/WAC/default.aspx?cite=132C-120-065">WAC 132C-120-065(1)</a>)
+</li>
+<li>Think before you push the "Send" button.</li>
+<li>Do not hesitate to ask for feedback.</li>
+<li>When in doubt, always check with your instructor for clarification.</li>
+</ul>
+</p>
+
+<h4 id="WAC">&#x2714; WAC / Washington Administrative Code for Olympic College</h4>
+<p>
+Please review Olympic College's 
+<a href="http://apps.leg.wa.gov/wac/default.aspx?cite=132c">Title 132C WAC</a>
+policies. The various WACs have been passed by the state of Washington and are Washington State law that govern the behavior of the administration, faculty, and students.
+</p>
+
+<h4 id="CID">&#x2714; Identification </h4>
+<p>
+All assignments must have a student name and assignment name clearly labeled. Please see the Web site for the name of the assignment. If the assignment is a physical multi-page document, it MUST be stapled to be accepted. Stapling your assignment is your responsibility before class. I do not carry a stapler with me nor should you expect one to be available in class. Failure to follow these policies may result in the deduction of points.
+</p>
+
+<h4 id="asgn">&#x2714; Assignments (What you need to do to get a good grade)</h4>
+<p>
+By taking this class, you are stating that you will be making appropriate time in your schedule to ensure success and have access to the resources required for this class. <b>Expect to spend 1-2 hours outside of class per unit for every class credit to ensure success.</b> Example: 3 credit class = 5 hours outside of class per unit, 4 credit class = 7 hours outside of class per unit, and 5 credit class = 9 hours outside of class per unit to allow time for your success. Thus, being a full-time student is a full-time job, around 40+ hours per week for class and study time. I understand that for many community college students, attending college is a part of a very busy life. I know many of you work and have families. When I was a graduate student, I worked full-time. As an undergraduate, I worked 20+ hours a week. I also have a family with two teens involved with sports and all the other stuff. I know things can get busy. Remember: You are responsible for your learning. 
+You may be administratively withdrawn from class if you do not demonstrate participation for more than two consecutive units. 
+You are the one who needs to invest the time. 
+<b>Time management is your friend or your foe! Waiting until the evening of the due date to ask a question of an assignment may not be your best approach for success for this class. Start assignments early and be proactive.</b>
+<b class="t911"> No assignment will be accepted for grading after the last due date.</b>
+</p>
+
+
+<h4 id="Due-dates">&#x2714; Due dates (When is my stuff due?)</h4>
+<p>
+Assignments are due on time / date given at the Web site. Paper documents are due at the beginning of class or they will be late. Online postings are due by midnight of the due date or they will be late. You can post assignments any time during the current unit. Please do not wait until the last minute to post due to normal connectivity issues associated with the Internet. 
+<span class="x911">
+All assignments MUST be posted before 11:59pm of the due date listed for a given unit using the appropriate posting for a given assignment. Assignments not posted in the appropriate form for a given unit will not be graded.
+Any assignment not available at that time will be considered late and WILL NOT BE GRADED.
+</span> 
+Do not wait until the last minute to complete your assignments and make that your excuse. Place any document in my box or under my door at your own risk. NOTE: Emailed assignments will not be accepted for grading unless specified as part of an assignment or previously approved.
+</p>
+
+
+<h4 id="Form-Confirmations">&#x2714; Submission Confirmations (It is for your protection!)</h4>
+<p>
+When assignments are posted at the Web site, verify that it was submitted. Go to the Grades tab and see if your work was registered there. This serves several purposes. It shows that your posting was accepted by the system and gives you an opportunity to verify the transaction. Since little or no paper is used in the class, your only documentation that you posted an assignment *is* the electronic gradebook. Please make a copy of your successful submission, either an electronic copy or printed a copy. Keep them safe in the event of a system failure and/or loss of postings at the class Web site. To date, loss of data is extremely rare but can happen since we are using the Internet for transmitting data. It is strongly recommend that you print out all your submission confirmations and place them into a confirmation notebook as your backup. Copies of your confirmations, except exams, can be found in the Grades section. If issues do arise, one of the first things I may ask to see is your submission confirmation. <b class="t911">Without a submission confirmation for an assignment, you may receive 0 points for an assignment.</b>
+</p>
+
+<h4 id="my-points">&#x2714; Monitor Your Progress (Don't let grades surprise you!)</h4>
+<p>
+You can monitor your unit progress by clicking on <b>Grades</b> on the site index as well as view what assignments you have posted to the class Web site. 
+I post grades ASAP, usually within 7 days. 
+A bit more during exams or if my schedule gets impacted. 
+My goal is to give reasonable feedback to as many students as possible in the shortest time possible. 
+If you have any questions, comments, concerns about an assignment, or would like detailed feedback, please feel free to use the Canvas Inbox on the left of most pages. 
+</p>
+
+
+<h4 id="late-work">&#x2714; Late work (It happens...)</h4>
+<p>
+You will be given a number of "Late Tickets" for you late work. Most assignments will use one Late Ticket per assignment unless noted. 
+Late Tickets MUST be used within two units of the one missed unit.
+For example, if you wish to use a Late Ticket for an assignment in unit 04, 
+it MUST be posted by the due date of unit 06 for consideration.
+When you have run out of tickets, no more late work will be accepted. 
+<b class="x911">Late Tickets can not be used for Discussions since they are time sensitive.</b> 
+My goal is to be fair to all students and not suggest favoritism based on pre-existing situations. I would suggest you hold on to your Late Tickets as long as possible for real emergencies and not poor time management. 
+The last day to post late work is the last due date of regular class assignments.
+For most classes, this would be unit 10.
+Please see Late assignments as a courtesy and not as a right.
+Late work will be graded at the discretion of the instructor both for points as well as to when the assignment will be graded.
+The number of "Late Tickets" are listed in the Course Schedule section of the syllabus.
+Late work maybe extended under very special circumstances in accordance with OC policies, like accessibility needs, with appropriate documentation. 
+Use them wisely!
+</p>
+
+<h4 id="redo">&#x2714; Redo work (It is that important!)</h4>
+<p>Occasionally I will suggest that an assignment be redone because it appears that the learning outcomes may not have been met regarding that assignment. <b class="x911">If a redo is suggested, a notice will posted in the Grades section in the comments area of your submission.</b> 
+You need to resend the requested redo assignment ASAP (days, not weeks) after points are posted for that assignment or the redo will *not* be graded and the grade given will stand. Please contact me via the Canvas Inbox for instructions and support.
+Please see Redo assignments as a courtesy and not as a right.
+Redo work will be graded at the discretion of the instructor both for points as well as to when the assignment will be graded.
+The last day to post redo work is the last due date of regular class assignments.
+For most classes, this would be unit 10.
+</p>
+
+<h4 id="withdrawing">&#x2714; Withdrawing (What to do if you need to leave the class)</h4>
+<p>
+If you wish to withdraw from this course, please file the appropriate paperwork with the Office of Registration and Records and then inform me of your decision. 
+It is your responsibility to contact Registration and Records, otherwise you remain enrolled in the course.
+<br/>
+Web link: <a href="http://www.olympic.edu/current-students/registration">Office of Registration and Records</a>
+<br/>
+Phone: (360) 475-7200 / Email: webreg@olympic.edu
+</p>
+
+<h4 id="expectations">&#x2714; Student expectations (Basic academic values)</h4>
+<p>
+This class is considered to be a college level class. 
+It is expected that students will be tolerant of others views, be respectful in dealing with others, and use standard English in their communications, both written and verbal. 
+Every employee at Olympic College, me included, take your education very seriously. We see education as a gateway to a better life. 
+We hope you take the same view of your education and the opportunities OC can provide. 
+At the end of the day, you need to make the choices to maximize your learning.
+</p>
+
+<h4 id="behavior">&#x2714; Classroom conduct (How to behave yourself in class)</h4>
+<p>Disruptive behavior will not be tolerated, see 
+<a href="http://app.leg.wa.gov/WAC/default.aspx?cite=132C-120-065">WAC 132C-120-065(3)</a>. 
+For online class or online components, please see the Netiquette policies above.
+For ground classes, please refrain from the following during lecture: talking, inappropriate language, using the computer (mouse or keyboard or printer), cell phones/pagers, guest (including children/OCP 200-06, it's the law), eating, sleeping, or other similar disturbance to the class unless a class code of conduct is in effect.
+"The college may impose disciplinary sanctions against a student who commits, or aids, abets, incites, encourages or assists another person to commit, an act(s) of misconduct."
+ Your cooperation is appreciated.
+</p>
+
+<h4 id="honesty">&#x2714; Academic honesty (It is a BIG deal in academics!)</h4>
+<p>
+No academic dishonesty will be tolerated, see 
+<a href="http://app.leg.wa.gov/WAC/default.aspx?cite=132C-120-065">WAC 132C-120-065(1)</a>. 
+"Any act of academic dishonesty including, but not limited to, cheating, plagiarism, and fabrication."
+Evidence of academic dishonesty will result in a forfeiture of points for an assignment.
+"The college may impose disciplinary sanctions against a student who commits, or aids, abets, incites, encourages or assists another person to commit, an act(s) of misconduct."
+</p>
+
+<h4 id="military">&#x2714; Service members (I know you may have special situations)</h4>
+<p>
+I will try to work with service members (military, police, fire, and alike) as best possible to complete this class. 
+You must notify me through Ask_Mark before any special accommodations will be made that explains your special situation that may *temporarily* impact your ability to participate in this class. 
+Please note that all assignments are open from the start of the quarter. 
+If you know of an upcoming situation, please take advantage of this opportunity before requesting accommodations.
+</p>
+
+<h4 id="special">&#x2714; Special requests (Please document with a Canvas Inbox message!)</h4>
+<p>
+All special accommodations MUST be requested through the Canvas Inbox or OC email to develop a paper trail even if we have a face-to-face conversation. 
+After a conversation, please send me a Canvas message or OC email ASAP so I'll have a reminder of what was discussed. 
+<b class="t911">Without follow up documentation via the Canvas Inbox or OC email, please do not hold me accountable for any special requests.</b>
+</p>
+
+<h4 id="fair-use">&#x2714; Digital media and Fair Use (It is Federal Law!)</h4>
+<p>
+At the end of the quarter, please delete all media (videos, images, documents (like PowerPoints), or other media) used in the class for instructional purposes to be in compliance with 
+<a href="http://www.copyright.gov/title17/92chap1.html#110">Title 17 of the United States Code &#xA7; 110(2)</a>
+governing the use of "fair use" of copyrighted materials outside of a classroom setting.
+Assume all material is copyrighted unless otherwise noted.
+</p>
+
+<h4 id="non-Discrimination">&#x2714; Non-Discrimination Statement (We take this seriously at OC)</h4>
+<p>
+Olympic College seeks to maintain a learning and working environment that is safe, welcoming, and respectful of the dignity of all members of the campus community.  
+Accordingly, the College prohibits discrimination on the bases of race, color, religion, national origin, age, disability, sex, sexual orientation, gender identity, pregnancy, veteran status and all other protected classifications.  
+If you witness or encounter any such discrimination, including sexual harassment, sexual assault, or other sexual misconduct, you are encouraged to report it to the Title IX Officer, Cheryl Nu&#xF1;ez, Vice President for Equity and Inclusion at cnunez@olympic.edu/360-475-7125 
+or the Equal Employment Opportunity Officer, David Slown, Executive Director for Human Resource Services at dslown@olympic.edu/306-475-7300, who will assist you in connecting with all possible resources.  
+You may also report it online (and anonymously, if you wish) at 
+<a href="https://publicdocs.maxient.com/incidentreport.php?OlympicCollege">Report It, OC!</a>
+or seek confidential counseling from the Counseling Faculty at 360-475-7530.  
+For more information about your options go to 
+<a href="http://www.olympic.edu/about-olympic-college/nondiscriminationaccessibility">Non-Discrimination</a> page at Olympic College.
+</p>
+
+<h4>Note:</h4>
+<p>
+Points may be deducted per violation of the policies listed above from
+your final grade.
+</p>
+</article>
+
+</div>
+
+<article id="Accommodations"><h3 class="h">
+&#x2605; Accommodations:
+</h3><p>
+Please contact Access Services with any questions at:
+</p><ul><li><b>Room:</b> HSS 205</li><li><b>Phone:</b> (360) 475-7540</li><li><b>Fax:</b> (360) 475-7436</li><li><b>Email:</b> AccessServices@olympic.edu</li></ul><p>
+If you need course adaptation or accommodations because of a disability,
+if you have an emergency medical information, or if you have a 
+accommodations that need to be shared with me in the event that the building
+needs to be evacuated, please contact me during office hours. If you use
+an alternative medium for communicating, please let me know before the
+meeting so that appropriate accommodations can be made.
+</p><p>
+You must contact me via the Canvas Inbox or see me during my office hours concerning your accommodation request(s)
+so we can discuss your needs before it can be recognized and implemented in class.
+</p><p>
+Note that about 10% of all OC students have some type of disability, both observable (like the use of a cane) as well as invisible (like 
+<a href="http://en.wikipedia.org/wiki/Posttraumatic_stress_disorder">PTSD</a>
+or 
+<a href="http://en.wikipedia.org/wiki/Asperger_syndrome">asperger syndrome</a>). 
+Most disabilities at OC are invisible.
+As an instructor, I can not disclose a student's disability. 
+The decision to share with others is a choice of the student.
+</p></article>
+<article id="Support"><h3>
+&#x2605; Technical Support:
+</h3><p>
+When things go wrong with computing it is never fun, especially when there are due dates and other time sensitive demands.
+Here are a few contacts and ideas to consider related to technical support:
+</p><ul><li><b>Issues or questions about this site (olympic.instructure.com)</b><br/>
+Please feel free to use your Canvas Inbox as a place to start with a brief description and the URL of the problem page.
+If the Canvas Inbox is not functioning, please use my OC email account and please include the course, your name, the nature of the issue, and any files or links to help resolve it. On the Subject: line, please use CIS 155 | Your name | the issue. I will try to respond and update you ASAP.
+</li></ul><ul><li><b>Distance Learning Office at OC</b><br/>
+Our mission is to provide assistance and guidance to eLearning students, and the faculty and staff that support their endeavors, by remaining current in the world of eLearning and passing that information on to you. 
+<a href="http://www.olympic.edu/programs-classes/distance-learning">Contact Distance Learning</a></li></ul><ul><li><b>Issues or questions about a computer in a OC lab</b><br/>
+Please contact the OC Help Desk at (360) 475-7600 or HelpDesk@olympic.edu
+with any questions issues with hardware and software.
+Please note the 
+<a href="http://www.olympic.edu/services/computer-labs/student-computing-guide/extended-rules-policies">Extended Rules and Policies</a>
+when using an OC computer.
+</li></ul><ul><li><b>Issues or questions about a Web site or service supporting the textbook</b><br/>
+Please check the introduction or cover pages or table of content for how to contact their user support.
+</li></ul><ul><li><b>Have a plan "B"!</b><br/>
+Please develop a plan "B" in case you have issues with your normal Internet access and related software that might affect your ability to participate in this class like Internet outage at home, local power outages, or non-functioning computers.
+</li></ul><ul><li><b>Start early and don't wait until the last hours of a due date!</b><br/>
+Many things can impact your ability to be successful in a college class that has lots of dependance on computing and access to the Internet.
+By starting early, you give yourself an extra buffer when things get a bit bumpy on the Information Highway like Websites bing down for a few hours for things like maintenance or technical issues or local issues like running out of paper or system updates. 
+These things happen as well as your education add additional demands and expectations to your probably already complex life.
+</li></ul></article>
+<article id="Grading"><h3>
+&#x2605; Grading Chart:
+</h3><p>
+There are 500 possible points in this class. A minimum of 300 points are required for a grade.
+See chart below for details.
+If your participation in class stops before the sixth week, I will most likely record a score of 'NC'.
+If your participation in class continues after the sixth week, I will most likely record a score of '0.0' if your points are below 300 points.
+Please note these are guidelines, not grading policies.
+</p><pre style="font-size: 140%;">
+   A          B          C          D
+           3.3-435    2.3-380    1.3-330
+4.0-475    3.0-420    2.0-365    1.0-315
+3.7-455    2.7-400    1.7-350    0.7-300
+                                 0.0-299
+</pre></article>
+<article id="Assignments"><h3>
+	&#x2605; Assignments:
+	</h3><p>
+	See the due date in the Course Schedule section near the top of this document.
+	<br/>
+	All work is to be posted using the appropriate posting place found in the Assignment sections of each of the unit outlines at the class Web site.
+	Click on the "Modules" link at the left of most Web pages to access the units for this class.
+	The numbers in parentheses are Blooms Taxonomy numbers; a higher number is a higher level of skill.
+	</p><p><b>
+		Unit 01:
+		Tool Week!</b><br/>
+This unit will introduce you to basic tools you may need to create and manage Web sites.
+These tools will include simple IDEs, Web browsers with debugging, FTP clients, and alike.
+Various Web site will be introduced to assist with understanding Web development.
+</p><ul><li>(1) Identify major Web browsers</li>
+<li>(2) Explain what HTML is</li>
+<li>(2) Explain how a Web browser process HTML</li>
+<li>(2) Explain how to connect and transfer files between a remote host and your local machine via FTP</li>
+<li>(2) Explain what an IDE is</li>
+<li>(2) Explain what a text is</li>
+<li>(2) Explain issues with Web development</li>
+<li>(3) Demonstrate how to open a Web page into a browser</li>
+<li>(3) Demonstrate how to use an IDE to create a simple Web page</li>
+<li>(3) Demonstrate how to log into the cis2 FTP server</li>
+<li>(3) Demonstrate how to upload and download a file using FTP</li></ul>
+<ul><li>
+		___ 
+		Read the Web presentation for this unit</li></ul><ul><li>
+				___ 
+				Tools Journal for 50pts
+				as 
+				<b>U01P</b></li></ul><p><b>
+		Unit 02:
+		Getting Started with HTML5</b><br/>
+This unit introduce you to the basics of HTML5. 
+</p><ul><li>(2) Explain the history of the Internet, Web, and HTML</li><li>(2) Explain the syntax of HTML tags and attributes</li><li>(2) Explain what CSS is</li><li>(2) Explain what JQuery is</li><li>(1) Identify key structural elements of a Web page</li><li>(1) Identify key grouping elements of a Web page</li><li>(1) Identify key text-level elements of a Web page</li><li>(2) Explain the difference between a div and span tag</li><li>(3) Demonstrate the use of basic HTML tags to create a simple Web page</li><li>(3) Demonstrate the use of ordered and unordered lists</li><li>(3) Demonstrate the use of external style sheets</li><li>(3) Demonstrate the use of structural elements</li><li>(3) Demonstrate the use of grouping elements</li><li>(3) Demonstrate the use of text-level elements</li><li>(3) Demonstrate the use of inline images</li><li>(3) Demonstrate the use of special characters from extended character sets</li><li>(3) Demonstrate the use of comments in a HTML document</li></ul><ul><li>
+		___ 
+		Read Tutorial 1: Getting Started with HTML5 for this unit</li></ul><ul><li>
+				___ 
+				Complete the Unit Tutorial for 17pts
+				as 
+				<b>U02A</b></li></ul><ul><li>
+				___ 
+				Complete Case Problem 3 on page HTML 67 for 17pts
+				as 
+				<b>U02B</b></li></ul><ul><li>
+				___ 
+				Create an optional project of your own design for 20pts!
+				as 
+				<b>U02C</b></li></ul><ul><li>
+				___ 
+				Post your TakeAway for 16pts and links for this unit
+				as 
+				<b>U02G</b></li></ul><p><b>
+		Unit 03:
+		Developing a Web site</b><br/>
+This unit introduces the basics of developing a small static Web site using hyperlinks for navigation and organizational constructs.
+</p><ul><li>(1) Identify basic Web site structures</li><li>(1) Identify key HTML5 tags like nav</li><li>(2) Explain the role of a storyboard for a Web site</li><li>(2) Explain the role of the homepage for a Web site</li><li>(2) Explain what a URL is and its parts and common protocols</li><li>(2) Explain what a hyperlink is and how attributes can modify their behavior</li><li>(2) Explain the difference between page and site navigation</li><li>(2) Explain the difference between relative and absolute path references</li><li>(2) Explain the purpose of the id attribute</li><li>(2) Explain what an image map is</li><li>(2) Explain what metadata is</li><li>(3) Demonstrate how to develop a Web site</li><li>(3) Demonstrate how to make a hyperlink to a URL</li><li>(3) Demonstrate how to make a hyperlink to a id within a Web page</li><li>(3) Demonstrate how to make an image into a hyperlink and the role of the alt attribute</li></ul><ul><li>
+		___ 
+		Read Tutorial 2: Developing a Web Site for this unit</li></ul><ul><li>
+				___ 
+				Complete the Unit Tutorial for 17pts
+				as 
+				<b>U03A</b></li></ul><ul><li>
+				___ 
+				Complete Case Problem 1 on page HTML 127 for 17pts
+				as 
+				<b>U03B</b></li></ul><ul><li>
+				___ 
+				Create an optional project of your own design for 20pts!
+				as 
+				<b>U03C</b></li></ul><ul><li>
+				___ 
+				Post your TakeAway for 16pts and links for this unit
+				as 
+				<b>U03G</b></li></ul><p><b>
+		Unit 04:
+		Designing Web Pages with CSS</b><br/>
+This unit introduces the basics of Cascading Style Sheets.
+</p><ul><li>(2) Explain the history and theory of CSS</li><li>(2) Explain issues with using CSS in Web page development</li><li>(2) Explain what a style rule is</li><li>(2) Explain style precedence and inheritance is CSS</li><li>(2) Explain the difference between external and internal style sheets</li><li>(2) Explain how to comment a style sheet</li><li>(2) Explain how to define colors in a style sheet</li><li>(2) Explain what contextual selectors are</li><li>(2) Explain the difference between CSS ID's and classes</li><li>(1) Identify common attribute selectors</li><li>(1) Identify common ways to style a Web page with CSS</li><li>(1) Identify common ways to style a list</li><li>(2) Explain what Web fonts are</li><li>(2) Explain what CSS @rules are and when they might be used</li><li>(2) Explain the difference between pseudo-classes and pseudo-elements</li><li>(3) Demonstrate how CSS can change presentation of page elements</li><li>(3) Demonstrate how CSS can change presentation of textual elements</li><li>(3) Demonstrate how CSS can change presentation of list elements</li><li>(3) Demonstrate precedence and inheritance is CSS</li></ul><ul><li>
+		___ 
+		Read Tutorial 3: Designing Web Pages with CSS for this unit</li></ul><ul><li>
+				___ 
+				Complete the Unit Tutorial for 17pts
+				as 
+				<b>U04A</b></li></ul><ul><li>
+				___ 
+				Complete Case Problem 1 on page HTML 214 for 17pts
+				as 
+				<b>U04B</b></li></ul><ul><li>
+				___ 
+				Create an optional project of your own design for 20pts!
+				as 
+				<b>U04C</b></li></ul><ul><li>
+				___ 
+				Post your TakeAway for 16pts and links for this unit
+				as 
+				<b>U04G</b></li></ul><p><b>
+		Unit 05:
+		Creating Page Layouts with CSS</b><br/>
+This unit introduces the basics of page layout in Cascading Style Sheets to create a modern multicolumn page with a header, footer, and navigation section.
+</p><ul><li>(1) Identify common display properties in CSS</li><li>(2) Explain the purpose of a reset style sheet</li><li>(2) Explain what browser extensions are</li><li>(2) Explain the difference between fixed, fluid, and elastic layouts</li><li>(2) Explain what floating elements are</li><li>(2) Explain the difference between margins and padding</li><li>(2) Explain how to add borders and round corners in CSS</li><li>(2) Explain how to position objects with CSS</li><li>(2) Explain the difference between absolute and relative positioning</li><li>(2) Explain what overflow and clipping are in CSS</li><li>(2) Explain what stacked elements are in CSS</li><li>(3) Demonstrate how manage backgrounds and floating objects with CSS</li><li>(3) Demonstrate how manage margins, padding, and borders with CSS</li><li>(3) Demonstrate how manage position elements with CSS</li></ul><ul><li>
+		___ 
+		Read Tutorial 4: Creating Page Layouts with CSS for this unit</li></ul><ul><li>
+				___ 
+				Complete the Unit Tutorial for 17pts
+				as 
+				<b>U05A</b></li></ul><ul><li>
+				___ 
+				Complete Case Problem 2 on page HTML 309 for 17pts
+				as 
+				<b>U05B</b></li></ul><ul><li>
+				___ 
+				Create an optional project of your own design for 20pts!
+				as 
+				<b>U05C</b></li></ul><ul><li>
+				___ 
+				Post your TakeAway for 16pts and links for this unit
+				as 
+				<b>U05G</b></li></ul><p><b>
+		Unit 06:
+		Working with Tables and Columns</b><br/>
+This unit will introduce the basics of creating tables and formatting them with CSS.
+</p><ul><li>(2) Explain the purpose of a table</li><li>(1) Identify key table elements</li><li>(3) Demonstrate how to create a table</li><li>(3) Demonstrate how to span multiple row and columns</li><li>(1) Identify key way to format a table with CSS </li><li>(2) Explain the precedence in table styles</li><li>(3) Demonstrate how to format a table with CSS</li></ul><ul><li>
+		___ 
+		Read Tutorial 5: Working with Tables and Columns for this unit</li></ul><ul><li>
+				___ 
+				Complete the Unit Tutorial for 17pts
+				as 
+				<b>U06A</b></li></ul><ul><li>
+				___ 
+				Complete Case Problem 2 on page HTML 382 for 17pts
+				as 
+				<b>U06B</b></li></ul><ul><li>
+				___ 
+				Create an optional project of your own design for 20pts!
+				as 
+				<b>U06C</b></li></ul><ul><li>
+				___ 
+				Post your TakeAway for 16pts and links for this unit
+				as 
+				<b>U06G</b></li></ul><p><b>
+		Unit 07:
+		Creating a Web Form</b><br/>
+This unit will introduce the basics of creating a Web form with common 
+widgets and formating them with CSS.
+Posting a form will be discussed but not practiced but demonstrated.
+</p><ul><li>(2) Explain the purpose of a Web form</li><li>(2) Explain what happens when a form is submitted to a server</li><li>(2) Explain the difference between the POST and GET methods</li><li>(1) Identify common element of a form</li><li>(3) Demonstrate the use of a text box in a form</li><li>(3) Demonstrate the use of check boxes in a form</li><li>(3) Demonstrate the use of radio buttons in a form</li><li>(3) Demonstrate the use of a selection list in a form</li><li>(3) Demonstrate the use of a text area in a form</li><li>(3) Demonstrate the use of a submit button in a form</li><li>(3) Demonstrate how to format a form with CSS</li><li>(1) Identify new form elements and options in HTML5</li><li>(2) Explain what HTML5 data types are</li><li>(2) Explain what spinners and sliders are in HTML5</li></ul><ul><li>
+		___ 
+		Read Tutorial 6: Creating a Web Form for this unit</li></ul><ul><li>
+				___ 
+				Complete the Unit Tutorial for 17pts
+				as 
+				<b>U07A</b></li></ul><ul><li>
+				___ 
+				Complete Case Problem 2 on page HTML 476 for 17pts
+				as 
+				<b>U07B</b></li></ul><ul><li>
+				___ 
+				Create an optional project of your own design for 20pts!
+				as 
+				<b>U07C</b></li></ul><ul><li>
+				___ 
+				Post your TakeAway for 16pts and links for this unit
+				as 
+				<b>U07G</b></li></ul><p><b>
+		Unit 08:
+		Designing Multimedia Web Sites</b><br/>
+This unit will introduce the insertion of audio and video into a Web page and formatting them with CSS.
+</p><ul><li>(1) Identify common media files suitable for a Web page</li><li>(1) Identify issues that may impact the use of media in a Web page</li><li>(2) Explain the different between a audio element and a embed element</li><li>(2) Explain the different between a video element and a object element</li><li>(2) Explain the use use of Flash players in a Web page</li><li>(2) Explain the use use of YouTube videos in a Web page</li><li>(2) Explain the use use of Java in a Web page</li><li>(3) Demonstrate the use of audio in a Web page</li><li>(3) Demonstrate the use of video in a Web page</li><li>(3) Demonstrate the use of YouTube in a Web page</li><li>(1) Identify key way to format a media with CSS </li><li>(3) Demonstrate how to format media with CSS</li></ul><ul><li>
+		___ 
+		Read Tutorial 7: Designing Multimedia Web Sites for this unit</li></ul><ul><li>
+				___ 
+				Complete the Unit Tutorial for 17pts
+				as 
+				<b>U08A</b></li></ul><ul><li>
+				___ 
+				Complete Case Problem 1 on page HTML 540 for 17pts
+				as 
+				<b>U08B</b></li></ul><ul><li>
+				___ 
+				Create an optional project of your own design for 20pts!
+				as 
+				<b>U08C</b></li></ul><ul><li>
+				___ 
+				Post your TakeAway for 16pts and links for this unit
+				as 
+				<b>U08G</b></li></ul>
+<p><b>
+		Unit 09:
+		Team Week!</b><br/>
+Work as a team of 2 of 3 people to develop a Web site.
+Team work is one of the top most requested skills we get from employers!
+</p></ul>
+<ul><li>
+		___ 
+		Review the links in the Links section on tips for being a great team member</li></ul><p><b>
+		Unit 10:
+		Presentations!</b><br/>
+Work as a team of 2 of 3 people to develop a Web site.
+Team work is one of the top most requested skills we get from employers!
+Presentation will be made the last week of class! 
+</p></ul>
+<ul><li>
+		___ 
+		Review the links in the Links section on tips for being a great team member</li></ul><ul><li>
+				___ 
+				Team Project: Movie Reviews! for 100pts total
+				as 
+				<b>U10G</b></li></ul></article>
+<article><h3>
+&#x2605; NOTE: This document is subject to change.
+</h3></article>
+
+
+</section>
+
+</body>
+</html>
