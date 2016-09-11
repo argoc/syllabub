@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!-- This syllabus is based on those of Mark Westlund, Rich Becker, Dondi Hanson, 
+     Kevin Blackwell, Philip Mathew, Sam Powers, and others; used with permission 
+     or from CC-NA sources 
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/pure/0.6.0/pure-min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<style type="text/css">
+h1, b, h2, h3, h4 {
+    color:DarkSlateGray;
+}
+@media screen {
+  body {
+    font-family: Verdana, "Lucida Grande", Arial, sans-serif;
+    font-size: small;
+	margin: 1em;
+  }
+}
+@media print {
+  body {
+    font-family: Verdana, "Lucida Grande", Arial, sans-serif;
+    font-size: small; /* print in chrome */
+	margin: 0;
+  }
+}
+.ralign {
+    text-align: right;
+}
+.fa {
+    color:#cc0000;
+    text-shadow: 3px 3px 3px #ccc;
+    font-size: 1.5em;
+}
+strong {
+    color:#cc0000;
+}
+li {
+    margin-bottom: .5em;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+}
+
+ul.bloomlist {
+  list-style-type: none;
+}
+.bloom1:before {
+	content: "\f02d"; /* book */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .5em;
+}
+.bloom2:before {
+	content: "\f0eb"; /* lightbulb-o */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: 1em;
+}
+.bloom3:before {
+	content: "\f02d"; /* wrench */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .5em;
+}
+.bloom4:before {
+	content: "\f085"; /* cogs */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .8em;
+}
+.bloom5:before {
+	content: "\f12e"; /* puzzle-piece */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .8em;
+}
+.bloom6:before {
+	content: "\f091"; /* trophy */
+	font-family: FontAwesome;
+    color:DarkSlateGray;
+    font-size: .5em;
+}
+</style>
+
+<title>IS 330 Fall 2016 Syllabus</title></head>
+<body>
+
+<header>
+<h1 id="top" style="color:#cc0000;"><a href="http://www.olympic.edu" style="color:#cc0000;"><img src="images/OClogo.png" style="float:right;" alt="Olympic College"></a></h1>
+<h2>IS 330 Syllabus 
+<br>Databases &amp; Data Analysis</h2>
+<h3>Fall 2016</h3>
+</header>
+
+<p><i class="fa fa-bullhorn"></i> Please read thoroughly; you are required to be familiar 
+with the course syllabus and policies. 
+Note: Syllabus content, course due dates and assignments may change at any time.
+
+<nav><p><i class="fa fa-bars"></i> <b>Page index: </b><br>
+<a href="#Contacts">Instructor</a> |
+<a href="#CourseDetail">Course</a> |
+<a href="#Schedule">Schedule</a> |
+<a href="#Grading">Grading</a> |
+<a href="#success">Expectations</a> |
+<a href="#Policies">Policies</a> |
+<a href="#Non-discrimination">Non-discrimination</a> |
+<a href="#Accommodations">Accommodations</a>
+</nav>
+
+<article id="Contacts"><h3><i class="fa fa-comment-o"></i> 
+Instructor Contact Information
+</h3>
+
+<ul>
+<li><b>Instructor:</b> Amelia Garripoli</li>
+<li><b>Office:</b> TEC-210 Bremerton</li>
+<li><b>Office Hours: </b>Mon &amp; Thu 12-12:50, or by arrangement</li>
+<li><b>Office Phone:</b> (360) 475-7588 (M-Th)</li>
+<li><b>Website:</b> <a href="http://faculty.olympic.edu/agarripoli" target="_new">faculty.olympic.edu/agarripoli</a><br /></li>
+<li><b>Skype:</b> agarripoli.olympic
+<li><b>Email:</b> agarripoli@olympic.edu
+<br>Send Course questions through the <a href="https://olympic.instructure.com/conversations?" target="_new">Canvas Inbox</a>.
+    <br><strong>Do not send assignments to my email or Canvas Inbox, 
+    they will not be accepted for grading.</strong>
+    All assignments must be submitted through Canvas.
+    I do not monitor email or Canvas during weekends, holidays, or breaks.
+    Resend if you get no response from me within one school day during the term; 
+	your message may not have reached me.</p> 
+
+</li>
+</ul>
+</article>
+
+
+<h3 id="CourseDetail"><i class="fa fa-graduation-cap"></i>Course Details</h3>
+<ul><li><strong>Catalog Description: </strong>In this course you will plan and design relational databases; and mine and analyze data using Structured Query Language (SQL) with real-world applications. Topics covered include: data modeling, data normalization and integrity, advanced queries, data manipulation, data analytics and functions, and tabular and graphical representation of analysis findings. There will be an overview of data analytics, including issues of privacy and security. An introduction to NoSQL databases is included.</li>
+<li><strong>Prerequisite: </strong>2.0 in IS 300 or permission of instructor.</li>
+<li><strong>Credits:</strong>5 (ratio is 4 lecture hours to 2 lab hours)</li>
+<li><strong>Class Dates: </strong>September 19 - December 2 2016, except Mon. Oct. 11, Wed. Nov. 15, &amp; Thu. Nov. 24</li>
+<li><strong>Course Meets: </strong>1:00pm-1:50pm Monday-Thursday (recorded) and 5pm-7pm Wednesday (on ground)</li>
+<li><strong>Location: </strong>BUS-106</li>
+<li><strong>Text: </strong>Murach's MySQL 2nd Edition, by Joel Murach<strong><br /> </strong>Published by Murach, Copyright 2015, ISBN: 978-1890775820</li>
+
+<li><strong>Required Technology:</strong> Active OC Canvas account; campus lab access or a PC or MAC with sufficient capabilities and for installing and using course software; Internet access; Microsoft Word software</li>
+
+<li><strong>Course Outcomes:</strong>
+<ol>
+<li>Design and test relational database systems that include complex data models and relationships</li>
+<li>Construct and test advanced queries to extract and manipulate data from multiple databases to answer specific analytics questions</li>
+<li>Present and analyze examples of applications of data analytics in different information systems contexts and discuss the role that analytics can play supporting business decisions</li>
+<li>Evaluate, select and apply analytics processes and functions to solve business problems with privacy and security considered, and justify the selected analytics process</li>
+<li>Evaluate, select and apply data representation formats that are best suited to the business case and to the audience</li>
+</ol>
+<li><strong>Core Abilities: </strong>IS 330 meets the <a href="http://www.olympic.edu/Students/DegreesCertificates/coreAbilities.htm">Core Abilities</a> of Thinking and Global Perspective.</li>
+</ul>
+
+<article id="Schedule"><h3><i class="fa fa-calendar"></i> 
+Schedule and Coursework
+</h3><p><strong>Please visit the class Web site often for current assignments information, 
+due dates, and messages.</strong><br>
+The Grades section will show you the work you have submitted and the feedback for it.
+</p>
+
+<table style="width: 100%;" border="1" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<p><strong>Week</strong></p>
+</td>
+<td>
+<p><strong>Modules</strong></p>
+</td>
+<td>
+<p><strong>Assignments</strong></p>
+</td>
+<td>
+<p><strong>Reading</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Week 1</p>
+</td>
+<td>
+<p>Module 0 - Getting Started<br />Module 1 - Tools</p>
+</td>
+<td>
+<p>SQL Pre-Assessment<br />Module 1 Group Drop Box<br />Module 1 Individual Drop Box<br />Module 1 Wiki Drop Box<br /></p>
+</td>
+<td>
+<p>Syllabus<br />Canvas shell<br />Ch. 1 &amp; 2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Week 2</p>
+</td>
+<td>
+<p>Module 2 - Basic SQL:<br/>SELECT, INSERT, UPDATE, &amp; DELETE</p>
+</td>
+<td>
+<p><span>Module 2 Group Drop Box</span><br /><span>Module 2 Individual Drop Box</span><br /><span>Module 2 Wiki Drop Box</span></p>
+</td>
+<td>
+<p><span>Ch. 3 &amp; 5</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Week 3</p>
+</td>
+<td>
+<p>Module 3 - Database Design</p>
+</td>
+<td>
+<p><span>Module 3 Group Drop Box</span><br /><span>Module 3 Individual Drop Box</span><br /><span>Module 3 Wiki Drop Box</span></p>
+</td>
+<td>
+<p><span>Ch. 10 &amp; 11</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Week 4</p>
+</td>
+<td>
+<p>Module 4 - More on Queries:<br />Joins, Types, and Functions</p>
+</td>
+<td>
+<p><span>Module 4 Group Drop Box</span><br /><span>Module 4 Individual Drop Box</span><br /><span>Module 4 Wiki Drop Box</span></p>
+</td>
+<td>
+<p><span>Ch. 4, 8, &amp; 9</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Week 5</p>
+</td>
+<td>
+<p>Module 5 - Data Analysis:<br/>Aggregation and Charts</p>
+</td>
+<td>
+<p><span>Module 5 Group Drop Box</span><br /><span>Module 5 Individual Drop Box</span><br /><span>Module 5 Wiki Drop Box</span></p>
+</td>
+<td>
+<p><span>Ch. 6 &amp; material in Canvas</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Week 6</p>
+</td>
+<td>
+<p>Module 6 - Database Performance</p>
+</td>
+<td>
+<p><span>Module 6 Group Drop Box</span><br /><span>Module 6 Individual Drop Box</span><br /><span>Module 6 Wiki Drop Box</span></p>
+</td>
+<td>
+<p>Ch. 14 &amp; material in Canvas</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Week 7</p>
+</td>
+<td>
+<p>Module 7 - Database Administration</p>
+</td>
+<td>
+<p><span>Module 7 Group Drop Box</span><br /><span>Module 7 Individual Drop Box</span><br /><span>Module 7 Wiki Drop Box</span></p>
+</td>
+<td>
+<p>Ch. 12 &amp; 18</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Week 8</p>
+</td>
+<td>
+<p>Module 8 - Database Recovery</p>
+</td>
+<td>
+<p><span>Module 8 Group Drop Box</span><br /><span>Module 8 Individual Drop Box</span><br /><span>Module 8 Wiki Drop Box</span></p>
+</td>
+<td>
+<p>Ch. 17 &amp; 19</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Weeks 9 - 10</p>
+</td>
+<td>
+<p>Module 9 - NoSQL</p>
+</td>
+<td>
+<p><span>Module 9 Individual Drop Box</span><br /><span>Module 9 Group Drop Box<br />Course Take-Aways</span></p>
+</td>
+<td>
+<p><span>Material in Canvas</span></p>
+</td>
+</tr>
+</table>
+
+
+<article id="Grading">
+<h3><i class="fa fa-tachometer"></i> 
+Grading &amp; Assignments
+</h3>
+<p>Total points that can be earned are 940. Refer to each module's instructions for specific details.</p>
+<p>Point Distribution:</p>
+<ul>
+<li>Group Project&mdash;42%</li>
+<li>Individual Exercises&mdash;32%</li>
+<li>Wiki Contributions&mdash;26%</li></ul>
+<ol>
+<li><p><span style="text-decoration: underline;">9 group lab activities &mdash; 40/80 points each for 400 points</span></p>
+<p>Students will work in groups in modules 1-8 to develop a database application that can become a portfolio item. This includes coding web pages to access the database through PHP. Each week the project will be progressed based on the SQL skills developed that week. During the NoSQL module, the group writes a quick-start and gives a presentation on a NoSQL area; this module is worth 80 points.</p></li>
+<li><p><span style="text-decoration: underline;"></span><span style="text-decoration: underline;">9 individual lab activities -- 30/60 points each for 300 points</span></p>
+<p>Students will be completing exercises based on the module's contents. To enable mentoring, these exercises will be completed after the group lab so that the group can familiarize their members with the module topic. The module exercises are individual work, however, and should be completed by each student individually.
+ Labs 1-8 are worth 30 pts. each. For Module 9 NoSQL, students will complete team evaluations to determine individual contributions to the group labs. The final lab is worth 60 pts.</p></li>
+ <li><p><span style="text-decoration: underline;">8 individual wiki contributions &mdash; 30 points each for 240 points</span></p>
+<p>Beginning in module 1 and continuing throughout the course, students will build an SQL wiki in a collaborative website. With each module, you will have the opportunity to contribute a page and to provide feedback to your peers and improvement of your own past work.</p>
+<p>The purpose of the wiki is to reinforce what you have learned by summarizing and explaining it in writing, and reviewing summaries from your peers. This wiki will grow during the term and should also be a resource for past modules' contents. It is a space to practice providing information about technology to your peers and evaluating your peers' work, useful and necessary skills in the IT workplace.
+</p></li>
+</ol>
+<p>Your grade for the class will be assigned by converting your total points to a percentage grade, by dividing them by 9.4. So if your total points was 760, your grade would be 80%, which is a B-, GPA 2.7 in our chart:</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="71">
+<p>Percent</p>
+</td>
+<td width="32">
+<p> </p>
+</td>
+<td width="38">
+<p>GPA</p>
+</td>
+<td width="71">
+<p>Percent</p>
+</td>
+<td width="32">
+<p> </p>
+</td>
+<td width="38">
+<p>GPA</p>
+</td>
+</tr>
+<tr>
+<td width="71">
+<p>95 - 100</p>
+</td>
+<td width="32">
+<p>A</p>
+</td>
+<td width="38">
+<p>4.0</p>
+</td>
+<td width="71">
+<p>74 - 76.9</p>
+</td>
+<td width="32">
+<p>C</p>
+</td>
+<td width="38">
+<p>2.0</p>
+</td>
+</tr>
+<tr>
+<td width="71">
+<p>90 - 94.9</p>
+</td>
+<td width="32">
+<p>A-</p>
+</td>
+<td width="38">
+<p>3.7</p>
+</td>
+<td width="71">
+<p>70 - 73.9</p>
+</td>
+<td width="32">
+<p>C-</p>
+</td>
+<td width="38">
+<p>1.7</p>
+</td>
+</tr>
+<tr>
+<td width="71">
+<p>87 - 89.9</p>
+</td>
+<td width="32">
+<p>B+</p>
+</td>
+<td width="38">
+<p>3.3</p>
+</td>
+<td width="71">
+<p>67 - 69.9</p>
+</td>
+<td width="32">
+<p>D+</p>
+</td>
+<td width="38">
+<p>1.3</p>
+</td>
+</tr>
+<tr>
+<td width="71">
+<p>84 - 86.9</p>
+</td>
+<td width="32">
+<p>B</p>
+</td>
+<td width="38">
+<p>3.0</p>
+</td>
+<td width="71">
+<p>64 - 66.9</p>
+</td>
+<td width="32">
+<p>D</p>
+</td>
+<td width="38">
+<p>1.0</p>
+</td>
+</tr>
+<tr>
+<td width="71">
+<p>80 - 83.9</p>
+</td>
+<td width="32">
+<p>B-</p>
+</td>
+<td width="38">
+<p>2.7</p>
+</td>
+<td width="71">
+<p>60 - 63.9</p>
+</td>
+<td width="32">
+<p>D-</p>
+</td>
+<td width="38">
+<p>0.7</p>
+</td>
+</tr>
+<tr>
+<td width="71">
+<p>77 - 79.9</p>
+</td>
+<td width="32">
+<p>C+</p>
+</td>
+<td width="38">
+<p>2.3</p>
+</td>
+<td width="71">
+<p>59.9 -LESS</p>
+</td>
+<td width="32">
+<p>F</p>
+</td>
+<td width="38">
+<p>0.0</p>
+</td>
+</tr>
+</tbody>
+</table>
+</article>
+
+<h3 id="success"><i class="fa fa-rocket"></i> Expectations for Success:</h3>
+<p>Please note the following guidelines and approaches to success in this course:</p>
+<ul>
+<li>Contribute to the class by attending regularly and engaging in discussions.</li>
+<li>Set up a plan and actively pursue each course milestone to ensure you complete your assignments on time.</li>
+<li>Demonstrate a level of engagement through careful listening and attention to details and due dates.</li>
+<li>Apply a professional level of communications throughout the course both verbally and in writing.</li>
+<li>Adhere to proper spelling, grammar and punctuation as if communicating in a professional setting.</li>
+<li>Stay current with course materials and observe, read, experiment, and otherwise absorb course content.</li>
+<li>Take ownership for learning, and deliver quality products worthy of portfolio content.</li>
+<li>Maintain access to sufficient equipment and internet bandwidth to complete course work.</li>
+<li>Seek help immediately when problems or challenges arise.</li>
+</ul>
+<article id="Policies">
+<h3><i class="fa fa-quote-left"></i> General Policies:</h3>
+<ol start="1">
+<li><p><strong>Getting Help:</strong></p>
+<p><em>First</em>, if you need help, get help early and often - if you wait until it is a crisis, it will be too late.</p>
+<p>Here are some resources to get help in this class:</p>
+<ul>
+<li>Contact me through Canvas or email for help - please give sufficient detail, including which assignment you are asking about and your issue.</li>
+<li>Call or stop by during my office hours - hours and number stated above. I am available outside of the listed hours by arrangement as well, online or phone. Skype or Teamviewer can be used if screenviews are needed.</li>
+<li><a href="http://libguides.olympic.edu/index">Haselwood Library</a> has <a id="" class="" title="" href="http://libguides.olympic.edu/c.php?g=232024&amp;p=1540493" target="">LibGuides</a>, an assortment of online books about SQL.</li>
+<li>The <a href="http://www.olympic.edu/services/tutoring-services/writing-center">Writing Center</a> offers assistance with writing online and by appointment.</li>
+<li>BUS-106 will be available with a lab tech during class time and also at other times. A schedule will be posted on the course Canvas site once it is available.</li>
+<li>The <a id="" class="" title="" href="http://faculty.olympic.edu/agarripoli/programmingtutors.html" target="">programming tutors</a> may be able to provide you with some assistance on SQL.</li>
+</ul>
+<p>If you need help outside of class material, there are a wide variety of resources available to you. See <a href="https://www.olympic.edu/CampusResources/">Campus Resources</a> for assistance.</p>
+<li id="submittingwork"><p><strong>Submitting Work:</strong></p>
+<p>All work must be submitted on Canvas. Ensure that all assignments are attached/deposited properly. It is your responsibility to ensure that all student submissions are in their proper place by their deadlines. Open a new browser window to check your submission, and do it early enough that you can resubmit before the due date if needed.</p>
+<p>Submissions submitted on time will be graded within one week of their due date, unless I have heavier than normal professional obligations, in which case you will be notified of the delay. Your grade will be based on the content, quality, accuracy, and timeliness of your assignment.</p>
+
+<li id="latepolicy"><p><strong>Late Policy:</strong></p>
+<p>Canvas discussion posts and responses will not be accepted late. Successful discussions require timely interactions, so as a community you are required to participate, post and respond in a timely manner.</p>
+<p>Work will only be accepted up to three weeks late, up to the last regular class meeting of the quarter. There is a 10% penalty per week for late work, prior to grading. <span style="color: #ff0000;">Work over three week late will not be accepted for grading.</span> No late work is accepted for grading after the last regular class meeting for the quarter, even if it is less than three weeks away.</p>
+<p>Any exceptions to this late policy must be agreed upon no later than 48 hours prior to the due date; exceptions will only be made with verifiable proof of your inability to do so (for example, an accident report or emergency hospital admission), no exceptions.</p>
+<p>Late submissions will be graded with the next week's work.</p>
+
+
+
+<li><p><strong>Assignments</strong>:</p><p> By taking this class, you are stating that you will be making appropriate time in your schedule to ensure success and have access to the resources required for this class. Research can be very time-intensive, so budget accordingly. Expect to spend 1-2 hours outside of class per week for every class credit to ensure success. That means this 5 credit class equals 9 hours outside of class per week to allow time for your success. If you view recordings more than once, be sure to allocate additional time. Start assignments early and be proactive.</li>
+<ol start="1">
+<li><span style="text-decoration: underline;">Due dates:</span> Assignments are due on time / date as noted in the Canvas classroom. Online postings are due by 11:59:00 pm of the due date. You can post assignments any time during the current module. Please do not wait until the last minute to post. All assignments are due by 11:59pm of the due date listed for a given item using the appropriate drop box.  No assignment will be accepted for grading after the last scheduled day of classes. See the late policy for grading on late work.</li>
+<li><span style="text-decoration: underline;">Monitor Your Progress:</span> You can monitor your progress by going to the Grades area in the Canvas classroom. Contact your instructor right away if you notice any discrepancies between an expected assignment grade and what is reported in the gradebook.</li>
+<li><span style="text-decoration: underline;">Deliverables:</span> You must do your own work; consultation with others is fine, but the end-products must be your work; don't copy the work of others, get others to do your work, or take solutions from the web. For group work, all members need to contribute; you will be asked to evaluate your own contribution and your team members' in the final module.</li>
+</ol>
+<li><p><strong>Attendance</strong>:</p><p>  Regular progress is strongly recommended for success in this class. The topics build on each other; you will not be able to succeed in this class by cramming in each topic in an hour a week. Check in with the Canvas shell on a regular basis each week, watch all provided recordings, and participate in all lab meetings. Material will be provided in recordings that is not available in Canvas, and vice-versa. You are responsible for accessing and using all required resources provided, and doing so will be important to your success in this course.</li>
+<li><p><strong>Connectivity</strong>:</p><p> Everyone experiences technical difficulties including the Canvas website, the K-20 network, or your Internet service provider. Have an alternate plan in the event of technical difficulties, and do not wait until the last minute to submit your work. Know where your local WiFi hotspots and computing resources are and be prepared to get to them to submit your work on time. There are labs on each Olympic College Campus.</li>
+<li><p><strong>Etiquette/Netiquette:</strong></p><p> This is a college level class. It is expected that the instructor and the students will be tolerant of others' views, be respectful in dealing with others, and use standard professional English in their communications, both written and verbal. Swearing is not respectful. Remember that capitalization and exclamation points are considered yelling, and texting lingo is not professional. Any violations of this policy may result in lowering of an assignment grade or your overall course grade, reporting the violation to student services, or administrative withdrawal from the course. Ask first if you are not sure if your note is offensive, and respect the opinions of others. Refer to the applicable <a href="http://app.leg.wa.gov/wac/default.aspx?cite=132C-120">WAC</a> on student conduct. </li>
+<li><strong>Email: </strong>Netiquette applies to email text as well. Please follow these guidelines:</li>
+<ol>
+<li>Send course email through Canvas, not to my OC email. You will get faster turn-around, as Canvas takes priority during the term.</li>
+<li>Use an appropriate Subject line, change it if you are starting a new topic in a reply. If you send multiple replies before I respond, note that I may not see the earlier replies due to the way Canvas presents messages.</li>
+<li>I will respond to all Canvas messages within one school day during the term; on weekends, holidays, and breaks I am generally not checking messages and may not respond until the next school/contract day. If I have not answered your message within this timeframe, please re-send it and let me know as it may not have been received.</li>
+<li>Never assume email is private; others may be able to read or access your email, or it may be forwarded.</li>
+<li>If you do send email about the course to me at agarripoli@olympic.edu, I generally aim to respond within 2 school days to emails from olympic.edu addresses during the term; on evenings, weekends, holidays, and breaks I am generally not checking email.</li>
+<li>I cannot respond to student inquiries from non-olympic.edu email addresses. This is per OC policy. I can respond to all Canvas messages, and you can set Canvas up so it forwards messages to, and accepts replies from, your non-OC email.</li>
+</ol>
+<li><p><strong>Aademic Honesty:</strong></p><p>Plagiarism and cheating are serious offenses and may lead to a failing assignment grade; failure in the course; and/or expulsion from the College. For more information refer to the <a href="http://www.olympic.edu/current-students/policies-processes/student-conduct-code">Student Code of Conduct</a>.  Academic dishonesty includes cheating, plagiarism, fabrication, and facilitating academic dishonesty. Facilitating academic dishonesty includes providing your own work to someone else for their solution; do not put others in this situation, they cannot provide you with solutions, only guidance. Fabrication includes making up sources that do not exist; you must be able to produce all of your sources if requested.</p>
+<p>You are encouraged to work with one another to understand and discuss general concepts and approaches, but your work must be your own, and your writing must be in your own words. Except for group work, the assignments are to be completed individually, and as such you are expected to work on your own. I reserve the right to refuse to accept any assignment if you cannot demonstrate the ability to perform similar work when asked, if you cannot explain your answer or the approach that you have used, or if you cannot produce a source when requested. You need to develop and internalize the work yourself.</p>
+<p>This is particularly important with research -- whenever you use material from a source, that source must be immediately, properly cited and then a full reference supplied at the end of your paper/presentation. Please note: cut and paste of another's words is plagiarism. Quoting in a limited amount with a citation noted on the quote is permissible. Your words must be your own. Images must be appropriately sourced and cited as well.</p>
+<li id="recordings"><p><strong>Recordings:  </strong></p><p>
+All recordings provided for this course through Canvas are &copy; Copyright 
+Olympic College. If you have copied or downloaded any of the recordings, 
+you must delete them once the term completes. Olympic College does not grant 
+permission to retain recordings of class material. 
+See the <a href="https://www.olympic.edu/sites/default/files/files/20025CopyrightPolicy.pdf">OC Copyright Policy</a>.
+</li>
+<li id="safety"><p><strong>Internet Safety:  </strong></p><p>
+It is your responsibility to be aware of the impact of your actions when using the internet, with respect to managing your privacy, using the information you access, and maintaining machine security. For more information on this topic, see <a href="http://cis2.oc.ctc.edu/oc_apps/Westlund/OnlineSafety.htm" target="_new">Thinking about Online Safety</a>.
+</li>
+<li id="wac"><p><strong>WAC Regulations:</strong></p><p>  
+Please review Olympic College's 
+<a href="http://apps.leg.wa.gov/wac/default.aspx?cite=132c" target="_new">WAC 132C</a>
+regulations. The various WACs have been passed by the state of Washington and 
+are Washington State law that govern the behavior of the administration, faculty, and students.
+</li>
+Any failure to comply with these policies may result in lowering of an assignment grade, your course grade, or reporting to Student Services.
+</ol>
+</article>
+<h3 id="Non-discrimination"><i class="fa fa-hand-spock-o"></i> Equal Opportunity:</h3>
+<p>It is the policy of Washington&rsquo;s community and technical colleges to provide equal opportunity in education regardless of race, ethnicity, creed, color, national origin, sex, marital status, sexual orientation, age, religion, genetic information, gender identity, veteran status or the presence of any sensory, mental, or physical disability.  </p>
+
+<h3 id="Accomodations"><i class="fa fa-globe"></i> Access Services:</h3>
+<p>Olympic College is committed to providing equal access to students with disabilities.  Any student who feels he or she may need an accommodation based on the impact of a disability should contact Access Services in Room 205 of the Humanities &amp; Student Services Building, (360) 475-7540 or by email at <a href="mailto:AccessServices@olympic.edu">AccessServices@olympic.edu</a>. For more information visit <a href="http://www.olympic.edu/services/access-services-students-disabilities">Access Services</a>.</p>
+<p style="text-align: center;"><span style="color: #ff0000;"><strong><em>This syllabus is subject to change at any time and without notice.</em></strong></span></p>
+<p> </p>
+</div>
+
+<footer>Return to <a href="#top">Top</a>
+<hr>
+<p><small>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="CCSA4"/></a> 
+This work by 
+<a href="http://faculty.olympic.edu/agarripoli">Amelia Garripoli</a>
+is licensed under a 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/">
+Creative Commons Attribute-ShareAlike 4.0 International License</a> 
+</small></p>
+</footer>
+</body>
+</html>
