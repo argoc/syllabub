@@ -44,6 +44,7 @@ asciidoctor -b slidy book.adoc
 
 == Panopto
 
+* Office/Classroom webcam
 * Include in course shell
 * Check machine setup
 * Choose what's in the recording
@@ -57,6 +58,38 @@ asciidoctor -b slidy book.adoc
 * Embed recordings
 * Adding subtitles
 * And more...
+
+== Classrooms with Webcams
+
+* A106A-TW-08811
+* B206-TW-08781
+* CSC102-TW-09371
+* HL014-TW-08700
+* HL015-TW-10837
+* HOC139-TW-08457
+* HOC142-TW-08784
+* HS110-TW-07910
+* HS111-TW-07911
+* HS124-TW-07918
+* HS129-TW-07920
+* HS202-TW-07902
+* HS306-TW-07933
+* HS347-TW-07904
+* **MOBILE-TW-08772**
+* **MOBILE-TW-10257**
+* OCP105-TW-08785
+* OCP108-TW-09980
+* OCP220-TW-10009
+* OCS-WFTW-07903
+* RBS122-TW-20161
+* ST136-TW-08427
+* T100-TW-10680
+* T111-TW-10654
+* T201-TW-11109
+* T212-TW-09065
+* TJL116-TW-08455
+* TJL120-TW-07039
+
 
 == Include Panopto in Your Course Shell
 
