@@ -2,6 +2,8 @@
 Amelia Garripoli <agarripoli@olympic.edu>
 v1 September 12 2016 CC-BY-SA-4.0
 
+This talk is available at http://tinyurl.com/ocpanopto[tinyurl.com/ocpanopto]
+
 :doctype: book
 :source-highlighter: coderay
 :listing-caption: Listing
