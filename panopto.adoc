@@ -121,6 +121,7 @@ d for resolution.
 
 * choose folder (set to current class)
 * recording name (defaults to a timestamp -- consider using date, class, module
+* under settings->Basic Settings, check the recording location -- move it from c: to avoid Deep Freeze, but don't put it on z: or a thumbdrive (both too slow). d: or t: ...
 * under settings->Advanced Settings, click "Capture in MP4 format" (it makes recovery of crashed recordings easier...)
 * if no second monitor, under settings->Basic Settings, click "Minimize when recording"
 
