@@ -283,6 +283,15 @@ d for resolution.
 
 == Questions?
 
+Bonus: Video from January 2016 QM FLC on this topic
+
+++++
+<video width="400" height="auto" controls="">
+<source src="https://olympic.hosted.panopto.com/Panopto/Podcast/Syndication/20f43948-4e94-4bda-ac7b-d706fc232479.mp4" type="video/mp4"/>
+Video not supported, Download <a href="https://olympic.hosted.panopto.com/Panopto/Podcast/Syndication/20f43948-4e94-4bda-ac7b-d706fc232479.mp4">XML4U-process.mp4</a> video 
+with Right-click / Save As...
+</video>
+++++
 
 == Resources
 
