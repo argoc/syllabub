@@ -1,0 +1,261 @@
+= Panopto in Canvas at Olympic College
+Amelia Garripoli <agarripoli@olympic.edu>
+v1 September 12 2016 CC-BY-SA-4.0
+
+:doctype: book
+:source-highlighter: coderay
+:listing-caption: Listing
+:encoding: utf-8
+:lang: en
+:toc: left
+:toclevels: 2
+:numbered:
+:sectlinks:
+:sectanchors:
+:copyright: CC-BY-SA-4.0
+
+
+
+////
+Generate PDF from directory with book.adoc in it with the command
+asciidoctor-pdf -a toc book.adoc
+prepare to be amazed 
+
+Generate HTML slides:
+asciidoctor -b slidy book.adoc
+////
+
+:numbered!:
+== Recording your class
+
+* Panopto 
+** In Canvas
+** Strong Controls
+** RSS feed!
+** Navigate Videos without Streaming
+* Blackboard Collaborate
+** In Canvas
+** Student Interaction
+* Third Party
+** Completely Control Rendering
+** Richer Editing
+
+== Panopto
+
+* Include in course shell
+* Check machine setup
+* Choose what's in the recording
+* Recording quality
+* Other settings
+* How to Record
+* The Upload
+* Fixing problems
+* Student view
+* Download recordings
+* Embed recordings
+* Adding subtitles
+* And more...
+
+== Include Panopto in Your Course Shell
+
+* Settings
+** Navigation
+*** Slide Panopto up to the visible list
+** SAVE to keep the navigation change
+* Put reminders in each module ... more on this later
+
+== Make sure Panopto is on your machine
+
+* Panopto Recordings
+** Create
+*** Record a New Session
+**** Launch Panopto
++
+If nothing happens, Panopto is not installed on the machine (request through helpdesk@olympic.edu)
++
+Panopto may require a login (use your Canvas/OC credentials)
+
+
+== What's Recorded
+** Primary Screen
+** You (it's a good thing, really): audio and/or video
+** Secondary Screen (not such a good thing...)
+** PowerPoint (skippable)
+
+
+== Quality of Recordings (1)
+
+* Primary (webcam)
+** video yes/no -- check lighting
+** audio yes/no -- check sound strength (turn it UP)
+** quality: affects head size and sound
+
+
+== Sound quality depends on ...
+
+* The HVAC
+* What noise-generators are near your microphone (SURFACE PRO 3)
+* Quality of your microphone (LG750 over LG760 and LG730)
+* How far away you are from the microphone
+** If you wander, get a bluetooth setup in the room -- but test sound again!
+* Repeat the question! (students voices dim at best, off-mike)
+
+
+== Quality of Recordings (2)
+
+* Main Screen (monitor that is main display)
+** fps = frames per second kbps - kb per second, impacts frame size
+** screen resolution, fps, kbps interact to determine recording size; lower is smaller
+** 15fps works for most screen use and ok corner webcam
+** 30fps gives good webcam recording if full head-shot
+** 1280x720 resolution captures 12-point fonts on full-size viewing; 16-point fonts viewable on phablets
+(640x480 very small; 1920x1080 very large)
+** bit rate control is new -- higher settings will give bigger files with more quality (it's always a trade-off); try 500kbps or max permitte
+d for resolution.
+* Second Screen (not recommended)
+
+
+== Check settings
+
+* choose folder (set to current class)
+* recording name (defaults to a timestamp -- consider using date, class, module
+* under settings->Advanced Settings, click "Capture in MP4 format" (it makes recovery of crashed recordings easier...)
+* if no second monitor, under settings->Basic Settings, click "Minimize when recording"
+
+
+== Record
+
+* put Panopto controls on secondary screen
+* the big red button
+* Pause may not be your friend (check the recording if you use it; lost in re-rendering)
+* You're on!
+* When done, click the Green STOP button
+
+
+== Upload
+
+* Uploading goes on during the recording, but if there are network issues, it may not make it by the end of class.
+* If it's not done, Coordinate with the next instructor in the room -- if they don't need Panopto, leave it running (lock your login but leave it up) so the upload continues
+* If the next instructor uses Panopto, exit Panopto; otherwise they have to reboot to kill your Panopto to get theirs to start. Your upload will continue when they start Panopto 
+* If you have to kill your upload, grab the MP4's for the screen and video/audio (MP3 if just audio) so you can upload them from another machine (I slide them to the Z drive)
+
+
+== Failed Upload? 
+
+* Use Panopto Recordings-> Create -> Upload Media to create a video from saved MP4's.
+* Video/Audio is primary
+* Screen is secondary
+
+
+== Sound quality bad?
+
+* wave a magic wand
+* apologize
+* re-record
+* download primary, extract the audio into http://www.audacityteam.org/[Audacity], http://diyvideoeditor.com/cleaning-a-voice-track-with-audacity/[clean the audio], and then replace the primary track with the audio track 
+** (or stitch the audio and video together with something like ActivePresenter....)
+
+
+
+== What the students see
+
+* The Panopto Experience
+** streaming
+** bookmarks/notes
+** speed up/slow down/pause
+
+* The RSS feed/podcast/downloaded videos
+
+
+== Adjusting the "podcast"
+
+* Style of layout 
+ ** picture-in-picture
+ ** just primary
+ ** just secondary (includes audio)
+ ** tile all (not recommended for reading screens)
+* quality of podcast rendering
+** 576p (30fps)
+** 720p (30fps) <-- best compromise tablet v. PC
+** 1080p (30fps) <-- PC, not streaming video (fine for computer use)
+** 1080p (60fps) <-- PC, streaming video
+
+
+== Reminding students
+
+* Panopto in Course Navigation (not enough)
+* Panopto reminder in Modules (use Text Header, not External URL)
+* Panopto link in a Page always `https://olympic.instructure.com/courses/COURSENUMBER/external_tools/25250`
+* Embed the video in a Page
+* Show them the RSS shortcut
+
+
+== Embed the Video in a page
+ ** Panopto Recordings
+ ** mouseover the ... by the video you want to bring up the admin menu
+ ** select Settings
+ ** select Share
+ ** Select Embed
+ ** Copy the `<iframe...` code in the text area
+ ** return to the Page you want to put it on
+ ** Click HTML Editor
+ ** paste this HTML code on the page (put it at the top if you aren't HTML-comfortable, you can move it next)
+ ** Click Rich Text Editor
+ ** If you don't like where the video is, select it and cut-and-paste it where you want it on the page.
+
+
+== The RSS shortcut for students
+* Do this on FIREFOX
+* Go to Panopto Recordings
+* Click orange RSS icon
+* Click "Subscribe to RSS" in the pop-up menu
+* A page comes up with all of the currently available videos, most recent first -- students can click to view them or right-click and save them locally.
+* Students can bookmark that link and return to it to see the videos later (they don't always have to go through these steps)
+
+
+== Subtitles? (1)
+
+* Need a https://matroska.org/technical/specs/subtitles/srt.html[.srt file]
+** could use https://support.google.com/youtube/answer/6373554[YouTube Generated Captions] but then you have to upload it to YouTube, get the captions, and export them ... and do you want your video on YouTube?
+** could use software like https://www.techsmith.com/camtasia.html[Camtasia] to generate it; Camtasia is trainable to recognize _your_ voice 
+** - http://www.etskb-fac.cidde.pitt.edu/panopto/best-practices-for-adding-captions-to-your-panopto-videos/[U. of Pittsburgh Best Practices on Adding Captions] gives YouTube directions and pointers to other software
+
+
+== Subtitles? (2)
+* Add the captions to your recording _after_ it is uploaded and processed:
+** Panopto Recordings
+ ** mouseover the ... by the video you want to bring up the admin menu
+ ** select Settings
+ ** select Captions
+ ** Click Browse ... and pick the srt file
+ ** Click Upload Captions
+
+
+== Subtitles in Panopto
+* Not included in the Podcast
+* Stream on the side as the student views the recording
+* https://olympic.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e4440663-b19b-4f99-a187-bb7db5658493[Sample Subtitled Video]
+
+
+== Other Panopto Tips
+
+* cleaning up local videos through the app
+* Editing in Panopto - limited, but can cut off a start/end
+* Bookmarks/Notes can be published (won't be in the downloaded MP4s)
+* Viewing statistics (won't register downloads, just views within the viewer)
+
+
+== Questions?
+
+
+== Resources
+
+- https://support.panopto.com/documentation[Panopto - Documentation]
+- http://www.audacityteam.org/[Audacity]
+- http://diyvideoeditor.com/cleaning-a-voice-track-with-audacity/[clean the audio track]
+- Need a https://matroska.org/technical/specs/subtitles/srt.html[.srt file] subtitle file format
+- https://support.google.com/youtube/answer/6373554[YouTube Generated Captions]
+- https://www.techsmith.com/camtasia.html[Camtasia]
+http://www.etskb-fac.cidde.pitt.edu/panopto/best-practices-for-adding-captions-to-your-panopto-videos/[U. of Pittsburgh Best Practices on Adding Captions]
+- http://www.waol.org/panopto[SBCTC on Panopto]
+
