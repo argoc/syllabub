@@ -168,7 +168,7 @@ topic in more depth
 
 == Other possibilities 
 
-many from 
+most from 
 http://www.levy.k12.fl.us/instruction/Instructional_Tools/60formativeassessment.pdf[60 Formative Assessments by K Lambert]
 
 * Present students with common or predictable misconceptions about a designated concept,
@@ -177,16 +177,13 @@ principle, or process. Ask them whether they agree or disagree and explain why.
 ** I became more aware of ...
 ** I was surprised about ...
 ** I related to ...
-* Each student is given a letter, and must write on a word relevant to the module that starts with that letter
+* Each student is given a letter of the alphabet, and must write a post on a word relevant to the module that starts with that letter
 * Provide an example of your own devising that exhibits an outcome of the module (Blooms 2 outcomes are great for this)
-* Write a 3-2-1 post: 
-** 3 things you found out
-** 2 interesting things
-** 1 question you still have
+* Write a 3-2-1 post: **3** things you found out; **2** interesting things; and **1** question you still have
 ** responses can critique, answer, expand on the posts
 * Provide 3-5 statements that aren’t clearly true or false, but are somewhat debatable. Have them evaluate them on a Likert scale (strongly agree to strongly disagree) and explain their evaluation
 * Circle: something still going around in your head. Triangle: something pointed that stood out in your mind. Square: Something that "squared" or agreed with your thinking.
-* KWL: In your post write what you already knew before the module, what you want to learn but don't know, and what you learned in this module. (can lead to vague posts)
+* KWL: In your post write what you already **K**new before the module, what you **W**ant to learn but don't know, and what you **L**earned in this module. (can lead to vague posts, or frustrations getting expressed as W's)
 
 
 
