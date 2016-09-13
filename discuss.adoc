@@ -34,19 +34,19 @@ Sure there are the nuts and bolts, but how do you make them useful for students?
 
 == Discussions
 
-* <<echos>>
-* <<pick-a-term>>
-* <<pick-a-topic-think-wiki,Pick a Topic>>
-* <<ask-one-answer-one>>
-* <<future-application>>
-* <<best-practices>> 
-* <<troubleshooting>>
-* <<random-choice>>
-* <<series-of-questions>>
-* <<research>>
-* <<find-a-video>>
-* <<peer-review-of-a-lab>>
-* <<other-possibilities,... And More!>>
+* <<_echos,Echos>>
+* <<_pick_a_term,Pick a Term>>
+* <<_pick_a_topic_think_wiki,Pick a Topic>>
+* <<_ask_one_answer_one,Ask One Answer One>>
+* <<_future_application,Future Application>>
+* <<_best_practices,Best Practices>> 
+* <<_troubleshooting,Troubleshooting>>
+* <<_random_choice,Random Choice>>
+* <<_series_of_questions,Series of Questions>>
+* <<_research,Research>>
+* <<_find_a_video,Find a Video>>
+* <<_peer_review_of_a_lab,Peer Review of a Lab>>
+* <<_other_possibilities,... And More!>>
 
 == Echos
 
