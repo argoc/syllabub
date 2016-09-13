@@ -46,7 +46,7 @@ Sure there are the nuts and bolts, but how do you make them useful for students?
 * <<research>>
 * <<find-a-video>>
 * <<peer-review-of-a-lab>>
-* <<other-choices,... And More!>>
+* <<other-possibilities,... And More!>>
 
 == Echos
 
