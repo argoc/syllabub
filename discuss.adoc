@@ -36,16 +36,17 @@ Sure there are the nuts and bolts, but how do you make them useful for students?
 
 * <<echos>>
 * <<pick-a-term>>
-* Pick-a-topic
-* Ask One, Answer One
-* Future Application
-* Best Practices 
-* Troubleshooting
-* Random choice
-* Series of questions
-* Research
-* Find a Video
-* Peer Review of a Lab
+* <<pick-a-topic-think-wiki,Pick a Topic>>
+* <<ask-one-answer-one>>
+* <<future-application>>
+* <<best-practices>> 
+* <<troubleshooting>>
+* <<random-choice>>
+* <<series-of-questions>>
+* <<research>>
+* <<find-a-video>>
+* <<peer-review-of-a-lab>>
+* <<other-choices,... And More!>>
 
 == Echos
 
