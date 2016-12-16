@@ -11,13 +11,22 @@ Hosted on
 based on the work of Karl Broman with his
 [simple-site](http://kbromain.gitpage.io/simple-site).
 
-Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Fall 2016
+Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Winter 2017
 
 - [CIS155](CIS155.html)
+- [CIS225](CIS225.html)
+- [CIS229](CIS229.html)
+- [IS302](IS302.html)
+
+Past Quarters:
+
 - [CIS205](CIS205.html)
 - [CIS219](CIS219.html)
 - [IS300](IS300.html)
 - [IS330](IS330.html)
+
+[Older syllabi](http://faculty.olympic.edu/agarripoli/courses.html)
+
 
 ---
 
