@@ -4071,6 +4071,15 @@
 }
 
 @media print{
+    #sidebar .toggle {
+        display:none;
+    }
+    #sidebar * {
+        display:none;
+    }
+    #sidebar {
+        display:none;
+    }
   a { color: blue;text-decoration: underline dotted; }
   a[href^="http"]:not([nourl]):after{ content:" (" attr(href) ") ";font-size:0.9em;font-weight:normal;}
 }
@@ -4143,4 +4152,17 @@ th.w25 {
 }
 td.topalign {
     vertical-align: top;
+}
+#watermark {
+  color: rgba(208,208,208,0.5);
+  font-size: 200pt;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  z-index: 1;
+  left:0px;
+  top:0px;
 }
