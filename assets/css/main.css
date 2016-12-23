@@ -4081,7 +4081,12 @@
         display:none;
     }
   a { color: blue;text-decoration: underline dotted; }
-  a[href^="http"]:not([nourl]):after{ content:" (" attr(href) ") ";font-size:0.9em;font-weight:normal;}
+  a[href^="http"]:not([nourl]):after { 
+	content:" (" attr(href) ") ";
+	word-wrap:break-word;
+	font-size:0.9em;
+	font-weight:normal;
+  }
 }
 h1, b, h2, h3, h4 {
     color:DarkSlateGray;

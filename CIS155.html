@@ -37,6 +37,12 @@ article { padding: 10px; margin-bottom: 20px; background: #f0f0f0; }
 	header  { padding-bottom: 0px; padding-left: 20px; }
 	article { width: 100%; margin-bottom: 2em; padding: 0px; 
 				border-top: 1px solid #000000; }
+  a[href^="http"]:not([nourl]):after { 
+	content:" (" attr(href) ") ";
+	word-wrap:break-word;
+	font-size:0.9em;
+	font-weight:normal;
+  }
 }
 </style>
 <title>CIS 155 Syllabus Winter 2017</title>
