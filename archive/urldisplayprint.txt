@@ -1,4 +1,0 @@
-@media print{
-		a { text-decoration: underline dotted; }
-       a[href^="http"]:not([nodisplay]):after{ text-decoration: none; content:" (" attr(href) ") ";font-size:0.9em;font-weight:normal;}
-}
