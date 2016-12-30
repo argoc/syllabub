@@ -21,7 +21,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 Past Courses (most recent offering):
 
 - [CIS107 Intro to PCs](archive/2015_Fall_CIS_107_Item_2152_Syllabus.html)
-- [CIS110 IS Concepts](archive/2014_Fall_CIS_110_Syllabus_Garripoli.html) 
+- [CIS110 IS Concepts](archive/2014_Fall_CIS_110_Syllabus_Garripoli.htm) 
 - [CIS114 HTML](archive/2015_Fall_CIS_114_Item_2170_Syllabus.html)
 - [CIS142 Java I](archive/2015_Winter_CIS_142_Syllabus_Garripoli.html)
 - [CIS143 Java II](archive/2016_Spring_CIS_143_Syllabus_Garripoli.html) 
