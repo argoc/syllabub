@@ -2,6 +2,8 @@
 <agarripoli@olympic.edu>
 v30 March 2017 CC-BY-SA-4.0
 
+WACC 2017, Tacoma
+
 This talk is available at http://tinyurl.com/wa-ccpanopto[tinyurl.com/wa-ccpanopto]
 
 Amelia Garripoli, CIS Faculty, Olympic College
@@ -108,7 +110,6 @@ follow instructions at https://github.com/frederickf/presentable to add a TOC...
 
 == Panopto Setup
 
-* Webcam for face/sound
 * Include in course shell
 * Check machine setup
 * Choose what's in the recording
@@ -154,7 +155,7 @@ follow instructions at https://github.com/frederickf/presentable to add a TOC...
 ** Navigation
 *** Slide Panopto up to the visible list
 ** SAVE to keep the navigation change
-* Set videos downloadable in folder
+* Set videos downloadable in folder (check security)
 * Put reminders in each module ... more on this later
 
 == Panopto Folder Settings
@@ -274,6 +275,11 @@ image::images/pan-advancedsettings.png[]
 image::images/pan-upload.png[]
 
 
+== Problems
+
+* Upload fails
+* Sound quality bad
+
 == Failed Upload? 
 
 * Use Panopto Recordings-> Create -> Upload Media to create a video from saved MP4's.
@@ -289,7 +295,7 @@ image::images/pan-files.png[]
 == Sound quality bad?
 
 * Re-record
-* or Fix: 
+* or Fix (https://olympic.instructure.com/courses/1421931/external_tools/25250[.] http://olympic.hosted.panopto.com/Panopto/Podcast/Podcast.ashx?courseid=8e9aff7e-370d-48ee-bb23-ca2b75d517a1&type=mp4[samples]): 
 ** make recording as MP4's, use the one with .DV
 ** http://www.audacityteam.org/[Audacity+LAME+FFMPEG] to edit (makes an MP3).
 ** Normalize to make it louder
@@ -374,6 +380,8 @@ image::images/pan-embeddedvideo.png[]
 
 == RSS Link on Panopto Recordings page
 
+Works without Canvas login (http://olympic.hosted.panopto.com/Panopto/Podcast/Podcast.ashx?courseid=8e9aff7e-370d-48ee-bb23-ca2b75d517a1&type=mp4[example])
+
 image::images/pan-rss-downloads.png[]
 
 == RSS Feed for Course Recordings
@@ -402,17 +410,18 @@ image::images/pan-srtfile.png[]
 
 
 == Subtitles in Panopto
-* Not included in the Podcast download
+* Not included in the Podcast/MP4 download
 * Stream on the side as the student views the recording
 * https://olympic.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e4440663-b19b-4f99-a187-bb7db5658493[Sample Subtitled Video]
 
 == Subtitles in Panopto
 
-click through to see captions
+click View in Panopto to see captions
 
 ++++
 <iframe src="https://olympic.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=e4440663-b19b-4f99-a187-bb7db5658493&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen></iframe>
 ++++
+
 
 == Other Panopto Tips
 
