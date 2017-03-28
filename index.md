@@ -4,12 +4,6 @@ title: Syllabi of Amelia Garripoli
 description: Capturing current syllabi (past revs in repo history)
 ---
 
-Hosted on 
-[Github Pages](http://pages.github.com) using
-[Jekyll](http://jekyllrb.com/), 
-[Markdown](https://daringfireball.net/projects/markdown/), and
-based on the work of Karl Broman with his
-[simple-site](http://kbromain.gitpage.io/simple-site).
 
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Spring 2017
 
@@ -19,7 +13,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - [CIS210 SQL, not yet updated](CIS210.html) 
 - [CIS298 IS Practicum, not yet updated](CIS298.html)
 
-Past Courses (most recent offering):
+Past Courses (my most recent offering, note may be currently offered by different instructors):
 
 - [CIS107 Intro to PCs, Fall 2015](archive/2015_Fall_CIS_107_Item_2152_Syllabus.html)
 - [CIS110 IS Concepts, Fall 2014](archive/2014_Fall_CIS_110_Syllabus_Garripoli.htm) 
@@ -41,3 +35,11 @@ Past Courses (most recent offering):
 ---
 
 For more information about me (until I get my faculty pages over here as well) see [my faculty page](http://faculty.olympic.edu/agarripoli)
+
+
+Hosted on 
+[Github Pages](http://pages.github.com) using
+[Jekyll](http://jekyllrb.com/), 
+[Markdown](https://daringfireball.net/projects/markdown/), and
+based on the work of Karl Broman with his
+[simple-site](http://kbromain.gitpage.io/simple-site).
