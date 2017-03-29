@@ -11,7 +11,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - [CIS143 Java II, not yet updated](CIS143.html) 
 - [CIS205 XML, not yet updated](CIS205.html)
 - [CIS210 SQL, not yet updated](CIS210.html) 
-- [CIS298 IS Practicum, not yet updated](CIS298.html)
+- [CIS298 CIS Practicum](CIS298.html)
 
 Past Courses (my most recent offering, note may be currently offered by different instructors):
 
