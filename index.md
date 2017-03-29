@@ -9,7 +9,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 
 - [IS390 Reading and Research](IS390.html) 
 - [CIS143 Java II, not yet updated](CIS143.html) 
-- [CIS205 XML, not yet updated](CIS205.html)
+- [CIS205 XML](CIS205.html)
 - [CIS210 SQL, not yet updated](CIS210.html) 
 - [CIS298 CIS Practicum](CIS298.html)
 
