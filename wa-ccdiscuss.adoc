@@ -20,7 +20,10 @@ Amelia Garripoli, CIS Faculty, Olympic College
 :sectanchors:
 :copyright: CC-BY-SA-4.0
 :backend: revealjs
-
+:revealjs_theme: black
+:revealjs_slideNumber: true
+:revealjs_loop: true
+:revealjs_transition: fade
 
 ////
 generate slides with:
