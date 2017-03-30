@@ -1,13 +1,6 @@
 = Discussing Discussions
 <agarripoli@olympic.edu>
 v2017 March 30 2017 CC-BY-SA-4.0
-
-WA-CC 2017, Tacoma, WA
-
-This talk is available at http://tinyurl.com/wa-ccdiscuss[tinyurl.com/wa-ccdiscuss]
-
-Amelia Garripoli, CIS Faculty, Olympic College
-
 :doctype: book
 :source-highlighter: coderay
 :listing-caption: Listing
@@ -25,9 +18,17 @@ Amelia Garripoli, CIS Faculty, Olympic College
 :revealjs_loop: true
 :revealjs_transition: fade
 
+WA-CC 2017, Tacoma, WA
+
+This talk is available at http://tinyurl.com/wa-ccdiscuss[tinyurl.com/wa-ccdiscuss]
+
+Amelia Garripoli, CIS Faculty, Olympic College
+
+
+
 ////
 generate slides with:
-asciidoctor -T a-reveal.js.old/templates/slim discuss.adoc
+asciidoctor -T asciidoctor-reveal.js/templates/slim wa-ccdiscuss.adoc
 prepare to be amazed 
 ////
 
