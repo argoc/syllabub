@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Syllabi of Amelia Garripoli
+title: Syllabi 
 description: Capturing current syllabi (past revs in repo history)
 ---
 
