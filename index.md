@@ -12,7 +12,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - OC CIS 219, TBD
 - OC IS 330, TBD
 - OC CS& 142, TBD
-- WWU CSCI 247, TBD
+- WWU CISS 247, TBD
 
 
 Past Courses (my most recent offering, note may be currently offered by different instructors; note those not marked WWU are OC courses):
