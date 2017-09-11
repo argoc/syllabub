@@ -8,8 +8,8 @@ description: Capturing current syllabi (past revs in repo history)
 [WWU Time Table of Classes](https://admin.wwu.edu/pls/wwis/wwskcfnd.TimeTable)
 
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Fall 2017
-- [OC CIS110 IS Concepts](CIS110.html) 
-- OC CIS 219, TBD
+- [OC CIS 110 IS Concepts](CIS110.html) 
+- [OC CIS 219, Intro to ASP.NET](CIS219.html)
 - OC IS 330, TBD
 - OC CS& 142, TBD
 - WWU CISS 247, TBD
@@ -27,7 +27,6 @@ Past Courses (my most recent offering, note may be currently offered by differen
 - [CIS225 Advanced C, Winter 2017](CIS225.html)
 - [CIS229 ASP.NET Extreme, Winter 2017](CIS229.html)
 - [IS302 IS Integration, Winter 2017](IS302.html)
-- [CIS219 ASP.NET I, Fall 2016](CIS219.html)
 - [IS300 IS Foundations, Fall 2016](archive/2016_Fall_IS300_Item_2250_2251_syllabus_v0.pdf) 
 - [IS330 Databases and Data Analysis, Fall 2016](IS330.html) 
 - [IS490 Senior Project, Spring 2016](archive/2016_Spring_IS_490_Syllabus_Garripoli_Becker.html) 
