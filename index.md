@@ -11,7 +11,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - [OC CIS 110 IS Concepts](CIS110.html) 
 - [OC CIS 219, Intro to ASP.NET](CIS219.html)
 - OC IS 330, TBD
-- [OC CS& 142, Computer Science I Java](CS141.html)
+- [OC CS& 141, Computer Science I Java](CS141.html)
 - WWU CISS 247, TBD
 
 
