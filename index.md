@@ -10,7 +10,7 @@ description: Capturing current syllabi (past revs in repo history)
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Fall 2017
 - [OC CIS 110 IS Concepts](CIS110.html) 
 - [OC CIS 219, Intro to ASP.NET](CIS219.html)
-- [IS330 Databases and Data Analysis](IS330.html) 
+- [OC IS 330 Databases and Data Analysis](IS330.html) 
 - [OC CS& 141, Computer Science I Java](CS141.html)
 - [WWU CISS 247, Computer Systems I](CISS247.html)
 
