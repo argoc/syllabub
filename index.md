@@ -7,16 +7,21 @@ description: Capturing current syllabi (past revs in repo history)
 [OC Course Schedule Planner](https://apps.olympic.edu/classschedule/Default.aspx) || 
 [WWU Time Table of Classes](https://admin.wwu.edu/pls/wwis/wwskcfnd.TimeTable)
 
-Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Fall 2017
-- [OC CIS 110 IS Concepts](CIS110.html) 
-- [OC CIS 219, Intro to ASP.NET](CIS219.html)
-- [OC IS 330 Databases and Data Analysis](IS330.html) 
-- [OC CS& 141, Computer Science I Java](CS141.html)
-- [WWU CISS 247, Computer Systems I](CISS247.html)
+Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Winter 2018
 
+- [OC CS 143, Computer Science II Java](TBD.html) NOT YET UPDATED
+- [CIS225 Advanced C](CIS225.html)
+- [CIS229 ASP.NET Extreme, Winter 2017](CIS229.html) NOT YET UPDATED
+- [IS302 IS Integration, Winter 2017](IS302.html) NOT YET UPDATED
+- [WWU CISS 360, Operating Systems Principles](TBD.html) NOT YET UPDATED
 
 Past Courses (my most recent offering, note may be currently offered by different instructors; note those not marked WWU are OC courses):
 
+- [OC CIS 110 IS Concepts, Fall 2017](CIS110.html) 
+- [OC CIS 219, Intro to ASP.NET, Fall 2017](CIS219.html)
+- [OC IS 330 Databases and Data Analysis, Fall 2017](IS330.html) 
+- [OC CS& 141, Computer Science I Java, Fall 2017](CS141.html)
+- [WWU CISS 247, Computer Systems I, Fall 2017](CISS247.html)
 - [WWU CSCI145 Computer Programming and Linear Data Structures, Summer 2017](CSCI145.html) 
 - [IS390 Reading and Research, Spring 2017](IS390.html) 
 - [CIS143 Java II, Spring 2017](CIS143.html) 
@@ -24,9 +29,6 @@ Past Courses (my most recent offering, note may be currently offered by differen
 - [CIS210 Introduction to SQL, Spring 2017](CIS210.html) 
 - [CIS298 CIS Practicum, Spring 2017](CIS298.html)
 - [CIS155 Web Development I, Winter 2017](CIS155.html)
-- [CIS225 Advanced C, Winter 2017](CIS225.html)
-- [CIS229 ASP.NET Extreme, Winter 2017](CIS229.html)
-- [IS302 IS Integration, Winter 2017](IS302.html)
 - [IS300 IS Foundations, Fall 2016](archive/2016_Fall_IS300_Item_2250_2251_syllabus_v0.pdf) 
 - [IS490 Senior Project, Spring 2016](archive/2016_Spring_IS_490_Syllabus_Garripoli_Becker.html) 
 - [IS450 Project Management II, Winter 2016](archive/2016_Winter_IS_450_Syllabus_Garripoli.pdf)
