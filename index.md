@@ -10,10 +10,10 @@ description: Capturing current syllabi (past revs in repo history)
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Winter 2018
 
 - [OC CS 143, Computer Science II Java](CS143.html)
-- [CIS225 Advanced C](CIS225.html)
-- [CIS229 ASP.NET Extreme, Winter 2017](CIS229.html) NOT YET UPDATED
-- [IS302 IS Integration, Winter 2017](IS302.html) NOT YET UPDATED
-- [WWU CISS 360, Operating Systems Principles](TBD.html) NOT YET UPDATED
+- [OC CIS 225 Advanced C](CIS225.html)
+- [OC CIS 229 ASP.NET Extreme, Winter 2017](CIS229.html) NOT YET UPDATED
+- [OC IS 302 IS Integration, Winter 2018](IS302.html)
+- [WWU CISS 360, Operating Systems Principles](CISS360.html) NOT YET AVAILABLE
 
 Past Courses (my most recent offering, note may be currently offered by different instructors; note those not marked WWU are OC courses):
 
