@@ -13,7 +13,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - [OC CIS 225 Advanced C](CIS225.html)
 - [OC CIS 229 ASP.NET Extreme](CIS229.html)
 - [OC IS 302 IS Integration](IS302.html)
-- [WWU CISS 360, Operating Systems Principles](CISS360.html) NOT YET AVAILABLE
+- [WWU CISS 360, Operating Systems Principles](CISS360.html)
 
 Past Courses (my most recent offering, note may be currently offered by different instructors; note those not marked WWU are OC courses):
 
