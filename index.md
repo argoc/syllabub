@@ -15,7 +15,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - [OC CIS210 Introduction to SQL, Spring 2017](CIS210.html)
 - [OC CIS195/295 Independent Study](CIS195295.html)
 - [OC IS490 Senior Project, Spring 2016](archive/2016_Spring_IS_490_Syllabus_Garripoli_Becker.html)
-- [OC IS390 Reading and Research, Spring 2017](IS390.html)
+- [OC IS390 Reading and Research](IS390.html)
 
 Past Courses (my most recent offering, note may be currently offered by different instructors; note those not marked WWU are OC courses):
 
