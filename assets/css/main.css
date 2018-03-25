@@ -4081,7 +4081,7 @@
         display:none;
     }
   a { color: blue;text-decoration: underline dotted; }
-  a[href^="http"]:not([nourl]):after { 
+  a[href^="http"]:not([nourl]):after {
 	content:" (" attr(href) ") ";
 	word-wrap:break-word;
 	font-size:0.9em;
@@ -4116,41 +4116,22 @@ ul.bloomlist {
   list-style-type: none;
 }
 .bloom1:before {
-	content: "\f02d"; /* book */
-	font-family: FontAwesome;
-    color:DarkSlateGray;
-    font-size: .5em;
-	/* more styling for the icon, including color, font-size, positioning, etc. */
+	content: "📖"; /* book */
 }
 .bloom2:before {
-	content: "\f0eb"; /* lightbulb-o */
-	font-family: FontAwesome;
-    color:DarkSlateGray;
-    font-size: 1em;
+	content: "💡"; /* lightbulb */
 }
 .bloom3:before {
-	content: "\f02d"; /* wrench */
-	font-family: FontAwesome;
-    color:DarkSlateGray;
-    font-size: .5em;
+	content: "🔨"; /* hammer */
 }
 .bloom4:before {
-	content: "\f085"; /* cogs */
-	font-family: FontAwesome;
-    color:DarkSlateGray;
-    font-size: .8em;
+	content: "🔍"; /* magnifying glass */
 }
 .bloom5:before {
-	content: "\f12e"; /* puzzle-piece */
-	font-family: FontAwesome;
-    color:DarkSlateGray;
-    font-size: .5em;
+	content: "🏆"; /* trophy */
 }
 .bloom6:before {
-	content: "\f091"; /* trophy */
-	font-family: FontAwesome;
-    color:DarkSlateGray;
-    font-size: .5em;
+	content: "🎨"; /* palette */
 }
 th.w25 {
     width: 25%;

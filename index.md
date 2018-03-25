@@ -50,4 +50,4 @@ Hosted on
 [Jekyll](http://jekyllrb.com/),
 [Markdown](https://daringfireball.net/projects/markdown/), and
 based on the work of Karl Broman with his
-[simple-site](http://kbromain.gitpage.io/simple-site).
+[simple-site](http://kbroman.gitpage.io/simple-site).
