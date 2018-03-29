@@ -11,7 +11,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 
 - [OC CS& 141, Computer Science I Java, Fall 2017](CS141.html)
 - [OC CIS143 Java II, Spring 2017](CIS143.html)
-- [OC CIS205 XML, Spring 2017](CIS205.html)
+- [OC CIS205 XML](CIS205.html)
 - [OC CIS210 Introduction to SQL](CIS210.html)
 - [OC CIS195/295 Independent Study](CIS195295.html)
 - [OC IS490 Senior Project](IS490.html)
