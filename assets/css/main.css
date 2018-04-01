@@ -4128,10 +4128,10 @@ ul.bloomlist {
 	content: "🔍"; /* magnifying glass */
 }
 .bloom5:before {
-	content: "🏆"; /* trophy */
+	content: "🎨"; /* trophy */
 }
 .bloom6:before {
-	content: "🎨"; /* palette */
+	content: "🏆"; /* palette */
 }
 th.w25 {
     width: 25%;
