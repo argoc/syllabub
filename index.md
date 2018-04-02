@@ -10,7 +10,7 @@ description: Capturing current syllabi (past revs in repo history)
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Spring 2018 (note dates on the items below mean they are not yet current!)
 
 - [OC CS& 141, Computer Science I Java](CS141.html)
-- [OC CIS143 Java II, Spring 2017](CIS143.html)
+- [OC CIS143 Java II](CIS143.html)
 - [OC CIS205 XML](CIS205.html)
 - [OC CIS210 Introduction to SQL](CIS210.html)
 - [OC CIS195/295 Independent Study](CIS195295.html)
