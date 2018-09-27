@@ -13,7 +13,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - [OC CIS 219, Intro to ASP.NET, Fall 2018](CIS219.html)
 - [OC CS& 141, Computer Science I Java, Fall 2018](CS141.html)
 - [WWU CISS 247, Computer Systems I, Fall 2018](CISS247.html)
-- [WWU CISS 340, Database Systems, TBD](CISS340.html)
+- [WWU CISS 340, Database Systems, Fall 2018](CISS340.html)
 
 Past Courses (my most recent offering, note may be currently offered by different instructors):
 
