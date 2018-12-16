@@ -14,7 +14,8 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - OC CS 143
 - WWU CISS360
 
-Having already had two inquiries while on break, th8s needsto be in caps: PAST SYLLABI ARE NOT CURRENT SYLLABI.
+Having already had two inquiries while on break, this needs to be in caps: 
+PAST SYLLABI ARE NOT CURRENT SYLLABI.
 I make changes EVERY QUARTER, so do not assume a syllabus below will be your syllabus.
 
 Past Courses (my most recent offering, note may be currently offered by different instructors):
