@@ -9,18 +9,16 @@ description: Capturing current syllabi (past revs in repo history)
 
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Winter 2019 (note past dates on the items below mean they are not yet current!)
 
-- OC CIS155
+- [OC CIS 155 Web Development I, Winter 2019](CIS155.html)
 - OC CIS243
 - OC CS 143
 - WWU CISS360
 
-Having already had two inquiries while on break, this needs to be in caps: 
-PAST SYLLABI ARE NOT CURRENT SYLLABI.
-I make changes EVERY QUARTER, so do not assume a syllabus below will be your syllabus.
 
-Past Courses (my most recent offering, note may be currently offered by different instructors):
+Past Courses (my most recent offering, note may be currently offered by different instructors)
 
-- [OC CIS 155 Web Development I, Fall 2018](CIS155.html)
+I make changes every quarter, so do not assume a syllabus below will be your syllabus.
+
 - [OC CIS 219, Intro to ASP.NET, Fall 2018](CIS219.html)
 - [OC CS& 141, Computer Science I Java, Fall 2018](CS141.html)
 - [WWU CISS 247, Computer Systems I, Fall 2018](CISS247.html)
