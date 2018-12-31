@@ -10,8 +10,8 @@
 */
 
 /*
-  Reset Based on meyerweb.com/eric/tools/css/reset 
-  (v2.0 | 20110126 | License: public domain) 
+  Reset Based on meyerweb.com/eric/tools/css/reset
+  (v2.0 | 20110126 | License: public domain)
 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1773,17 +1773,17 @@ mark {
 	    padding: .2em 0 .2em 6em;
 	  }
 
-    ol.tiger {
+    ol.tiger, ol.tiger2 {
 			list-style-position: inside;
 			text-align: left;
 		}
-		ol.tiger li {
+		ol.tiger li, ol.tiger2 li {
 			list-style-position: inside;
       text-indent: -1em;
       padding-left: 2em;
 			padding-top: .5em;
 		}
-		ol.tiger li p {
+		ol.tiger li p, ol.tiger2 li p {
 			text-indent: 0;
       padding-left: 0;
 			padding-bottom: .5em;
@@ -1795,6 +1795,11 @@ mark {
 		}
 		dl.tiger, ol.tiger, div.tiger {
 			 background-color: #e8edec;
+		}
+		ol.tiger2 > li:nth-of-type(even) {
+			background-color: #e8edec;
+			box-shadow: 0 8px 4px -5px #ccc;
+			padding-right: .5em;
 		}
     dl.tiger dd:nth-of-type(even), p.tiger, ol.tiger > li:nth-of-type(odd),
 		div.tiger > div:nth-of-type(odd) {
@@ -2529,8 +2534,9 @@ mark {
 
 /* in print, put the marker after each item but lighten it up;
    matched to the marker between sections */
-		dl.tiger dd, p.tiger, ol.tiger > li, div.tiger > div,
+		dl.tiger dd, p.tiger, ol.tiger > li, ol.tiger2 > li, div.tiger > div,
 		dl.tiger dd:nth-of-type(even), p.tiger, ol.tiger > li:nth-of-type(odd),
+		ol.tiger2 > li:nth-of-type(even),
 		div.tiger > div:nth-of-type(odd) {
 			box-shadow: inset 0 .05em .15em 0 rgb(0, 0, 0);
 			box-shadow: inset 0 .05em .15em 0 rgba(0, 0, 0, .05);
