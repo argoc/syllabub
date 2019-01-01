@@ -11,7 +11,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 
 - [OC CIS 155 Web Development I, Winter 2019](CIS155.html)
 - OC CIS243
-- OC CS 143
+- [OC CS 143, Computer Science II Java, Winter 2019](CS143.html)
 - WWU CISS360
 
 
@@ -29,7 +29,6 @@ I make changes every quarter, so do not assume a syllabus below will be your syl
 - [OC CIS195/295 Independent Study, Spring 2018](CIS195295.html)
 - [OC IS490 Senior Project, Spring 2018](IS490.html)
 - [OC IS390 Reading and Research, Spring 2018](IS390.html)
-- [OC CS 143, Computer Science II Java, Winter 2018](CS143.html)
 - [OC CIS 225 Advanced C, Winter 2018](CIS225.html)
 - [OC CIS 229 ASP.NET Extreme, Winter 2018](CIS229.html)
 - [OC IS 302 IS Integration, Winter 2018](IS302.html)
