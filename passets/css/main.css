@@ -2453,6 +2453,22 @@ mark {
 					padding: 2em 0;
 				}
 
+/* dl */
+    dt {
+			display: none;
+			height: 0;
+			width: 0;
+			margin: 0;
+			padding: 0;
+		}
+		dd:before {
+			content: attr(dt) ": ";
+			font-weight: 600;
+		}
+		dd {
+			margin: .2em 0 .2em .2em;
+			padding: .2em 0 .2em .2em;
+		}
 
 	}
 
