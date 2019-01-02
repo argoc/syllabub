@@ -142,8 +142,6 @@ mark {
 		font-style: italic;
 	}
 
-
-
 	a {
 		text-decoration: none;
 		color: inherit;
@@ -206,7 +204,7 @@ mark {
 		width: 1400px;
 	}
 
-	.container ul, .container ol,	.container p {
+	.container ul, .container ol,	.container p, .container dd {
 		text-align: left;
 	}
 
