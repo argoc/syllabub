@@ -10,7 +10,7 @@ description: Capturing current syllabi (past revs in repo history)
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Winter 2019 (note past dates on the items below mean they are not yet current!)
 
 - [OC CIS 155 Web Development I, Winter 2019](CIS155.html)
-- OC CIS243
+- [OC CIS 243 Java III - Certification, Winter 2019](CIS243.html)
 - [OC CS 143, Computer Science II Java, Winter 2019](CS143.html)
 - WWU CISS360
 
