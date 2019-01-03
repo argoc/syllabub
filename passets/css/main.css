@@ -2534,6 +2534,10 @@ mark {
 			display: none;
 		}
 
+		#main > section {
+			padding: 1em 0 0.5em 0;
+		}
+
 /* shift over the "space" the header took */
 		body #main, body #footer {
 			-moz-transform: translateX(-50px);
