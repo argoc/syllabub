@@ -12,7 +12,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - [OC CIS 155 Web Development I, Winter 2019](CIS155.html)
 - [OC CIS 243 Java III - Certification, Winter 2019](CIS243.html)
 - [OC CS 143, Computer Science II Java, Winter 2019](CS143.html)
-- WWU CISS360
+- [WWU CISS 360, Operating Systems Principles, Winter 2019](CISS360.html)
 
 
 Past Courses (my most recent offering, note may be currently offered by different instructors)
@@ -32,7 +32,6 @@ I make changes every quarter, so do not assume a syllabus below will be your syl
 - [OC CIS 225 Advanced C, Winter 2018](CIS225.html)
 - [OC CIS 229 ASP.NET Extreme, Winter 2018](CIS229.html)
 - [OC IS 302 IS Integration, Winter 2018](IS302.html)
-- [WWU CISS 360, Operating Systems Principles, Winter 2018](CISS360.html)
 - [OC CIS 110 IS Concepts, Fall 2017](CIS110.html)
 - [OC IS 330 Databases and Data Analysis, Fall 2017](IS330.html)
 - [WWU CSCI145 Computer Programming and Linear Data Structures, Summer 2017](CSCI145.html)
