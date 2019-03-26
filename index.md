@@ -7,18 +7,21 @@ description: Capturing current syllabi (past revs in repo history)
 [OC Course Schedule Planner](https://apps.olympic.edu/classschedule/Default.aspx) ||
 [WWU Time Table of Classes](https://admin.wwu.edu/pls/wwis/wwskcfnd.TimeTable)
 
-Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Winter 2019 (note past dates on the items below mean they are not yet current!)
+Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Spring 2019 (links will be added once current syllabi are ready)
 
-- [OC CIS 155 Web Development I, Winter 2019](CIS155.html)
-- [OC CIS 243 Java III - Certification, Winter 2019](CIS243.html)
-- [OC CS 143, Computer Science II Java, Winter 2019](CS143.html)
-- [WWU CISS 360, Operating Systems Principles, Winter 2019](CISS360.html)
-
+- OC CIS 155 Web Development I, Spring 2019
+- OC CIS 143 Java II / Fundamentals of OOP, Spring 2019
+- OC CS& 141 Computer Science I Java, Spring 2019
+- WWU CISS 349 Computer System Administration, Spring 2019
 
 Past Courses (my most recent offering, note may be currently offered by different instructors)
 
 I make changes every quarter, so do not assume a syllabus below will be your syllabus.
 
+- [OC CIS 155 Web Development I, Winter 2019](CIS155.html)
+- [OC CIS 243 Java III - Certification, Winter 2019](CIS243.html)
+- [OC CS 143, Computer Science II Java, Winter 2019](CS143.html)
+- [WWU CISS 360, Operating Systems Principles, Winter 2019](CISS360.html)
 - [OC CIS 219, Intro to ASP.NET, Fall 2018](CIS219.html)
 - [OC CS& 141, Computer Science I Java, Fall 2018](CS141.html)
 - [WWU CISS 247, Computer Systems I, Fall 2018](CISS247.html)
