@@ -9,7 +9,7 @@ description: Capturing current syllabi (past revs in repo history)
 
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Spring 2019 (links will be added once current syllabi are ready)
 
-- OC CIS 155 Web Development I, Spring 2019
+- [OC CIS 155 Web Development I, Spring 2019](CIS155.html)
 - OC CIS 143 Java II / Fundamentals of OOP, Spring 2019
 - OC CS& 141 Computer Science I Java, Spring 2019
 - WWU CISS 349 Computer System Administration, Spring 2019
@@ -18,7 +18,6 @@ Past Courses (my most recent offering, note may be currently offered by differen
 
 I make changes every quarter, so do not assume a syllabus below will be your syllabus.
 
-- [OC CIS 155 Web Development I, Winter 2019](CIS155.html)
 - [OC CIS 243 Java III - Certification, Winter 2019](CIS243.html)
 - [OC CS 143, Computer Science II Java, Winter 2019](CS143.html)
 - [WWU CISS 360, Operating Systems Principles, Winter 2019](CISS360.html)
