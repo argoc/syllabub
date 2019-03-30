@@ -1,8 +1,8 @@
 {
   "dir": "ltr",
   "lang": "en",
-  "name":"CIS 155 Spring 2019 Syllabus",
-  "short_name":"CIS155S19",
+  "name":"CIS 143 Spring 2019 Syllabus",
+  "short_name":"CS143S19",
   "icons":[
     {"src":"passets/images/android-chrome-192x192.png",
       "sizes":"192x192",
