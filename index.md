@@ -12,8 +12,8 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 - [OC CIS 155 Web Development I, Spring 2019](CIS155.html)
 - [OC CIS 143 Java II / Fundamentals of OOP, Spring 2019](CIS143.html)
 - [OC CIS295 Independent Study, Spring 2019](CIS295.html)
-- OC CS& 141 Computer Science I Java, Spring 2019
-- WWU CISS 349 Computer System Administration, Spring 2019
+- [OC CS& 141, Computer Science I Java, Spring 2019](CS141.html)
+- WWU CISS 349 Computer System Administration, Spring 2019 (inside Canvas)
 
 Past Courses (my most recent offering, note may be currently offered by different instructors)
 
@@ -23,7 +23,6 @@ I make changes every quarter, so do not assume a syllabus below will be your syl
 - [OC CS 143, Computer Science II Java, Winter 2019](CS143.html)
 - [WWU CISS 360, Operating Systems Principles, Winter 2019](CISS360.html)
 - [OC CIS 219, Intro to ASP.NET, Fall 2018](CIS219.html)
-- [OC CS& 141, Computer Science I Java, Fall 2018](CS141.html)
 - [WWU CISS 247, Computer Systems I, Fall 2018](CISS247.html)
 - [WWU CISS 340, Database Systems, Fall 2018](CISS340.html)
 - [OC CIS205 XML, Spring 2018](CIS205.html)
