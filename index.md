@@ -11,7 +11,7 @@ Current Quarter (so you can tell if I dropped the ball or just stopped doing thi
 
 - [OC CIS 155 Web Development I, Spring 2019](CIS155.html)
 - [OC CIS 143 Java II / Fundamentals of OOP, Spring 2019](CIS143.html)
-- [OC CIS295 Independent Study, Spring 2019](CIS295.html)
+- [OC CIS 295 Independent Study, Spring 2019](CIS295.html)
 - [OC CS& 141, Computer Science I Java, Spring 2019](CS141.html)
 - [WWU CISS 349 Computer System Administration, Spring 2019 (from Canvas)](CISS349.html)
 
