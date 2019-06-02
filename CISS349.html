@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<head>
+   <title>WWU OCP CISS 349 Computer System Administration Syllabus, Spring 2019</title>
+   <style>
+   /*! CSS Used from: https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/new_styles_normal_contrast/bundles/common-54ac5e47b1.css ; media=all */
+
+a.external:hover,a.external:focus,a.external:active{text-decoration:none;}
+a.external:hover span,a.external:focus span,a.external:active span{text-decoration:underline;}
+.screenreader-only{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;transform:translatez(0);}
+:root {
+    font-family: LatoWeb, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media print{
+a:link,a:visited{font-weight:bold;text-decoration:underline;}
+a:link:after,a:visited:after{content:" (" attr(href) ") ";font-size:90%;}
+}
+p{margin:12px 0;}
+strong{font-weight:bold;}
+h1,h2{margin:6px 0;font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:bold;line-height:1.5;text-rendering:optimizelegibility;}
+h1{font-size:38px;}
+h2{font-size:32px;}
+h1,h2{font-weight:normal;}
+h1,h2{font-size:1.8em;line-height:1.5;}
+a{color:var(--ic-link-color);text-decoration:none;}
+a:focus,a:hover{color:var(--ic-link-color-darkened-10);}
+a:focus,a:hover{text-decoration:underline;}
+.Underline-All-Links__enabled a:not(.Button):not(.ui-button):not(.btn):not(.ui-button):not(.ui-tabs-anchor){text-decoration:underline;outline-width:0.125rem;outline-color:transparent;outline-style:solid;}
+.Underline-All-Links__enabled a:not(.Button):not(.ui-button):not(.btn):not(.ui-button):not(.ui-tabs-anchor):focus,.Underline-All-Links__enabled a:not(.Button):not(.ui-button):not(.btn):not(.ui-button):not(.ui-tabs-anchor):hover{text-decoration:none;}
+.Underline-All-Links__enabled a:not(.Button):not(.ui-button):not(.btn):not(.ui-button):not(.ui-tabs-anchor):focus{outline-offset:0;outline-color:var(--ic-link-color);}
+ul,ol{padding:0;margin:0 0 6px 25px;}
+ul ul{margin-bottom:0;}
+sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}
+sup{top:-0.5em;}
+.user_content a:not(.btn):not(.Button):not(.ui-button){text-decoration:underline;}
+.user_content table:not([cellpadding]){margin-left:5px;}
+.user_content table:not([cellpadding]) td{padding:2px;}
+table{max-width:100%;background-color:transparent;}
+:not(.user_content)>table,.user_content table:not([cellspacing]){border-collapse:collapse;border-spacing:0;}
+
+/*! CSS Used fontfaces */
+@font-face{font-family:'Lato';font-style:italic;font-weight:400;src:local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qJCY.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Lato';font-style:italic;font-weight:400;src:local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-q.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Lato';font-style:normal;font-weight:300;src:local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Lato';font-style:normal;font-weight:300;src:local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Lato';font-style:normal;font-weight:400;src:local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Lato';font-style:normal;font-weight:400;src:local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Lato';font-style:normal;font-weight:700;src:local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Lato';font-style:normal;font-weight:700;src:local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+   </style>
+</head>
+<body>
+<h2>WWU OCP CISS 349 Computer System Administration Item 201920<br />Syllabus, Spring 2019</h2>
+<p>CISS 349 is a study of the tasks, tools and techniques involved in the configuration and administration of heterogeneous networks of Windows and UNIX/Linux computers, with particular emphasis on system hardening, protection against attack, system monitoring and recovery.</p>
+<table>
+<tbody>
+<tr>
+<td width="169">
+<p><strong>Instructor:</strong></p>
+</td>
+<td width="455">
+<p>Prof. Amelia Garripoli</p>
+<p>Room OCP 110</p>
+<p>Email: Amelia.Garripoli@wwu.edu&nbsp;</p>
+<p>Phone (360) 774-0740</p>
+</td>
+</tr>
+<tr>
+<td width="169">
+<p><strong>Class times:</strong></p>
+</td>
+<td width="455">
+<p>T 9-11:50</p>
+</td>
+</tr>
+<tr>
+<td width="169">
+<p><strong>Office Hours:</strong></p>
+</td>
+<td width="455">after class, as needed</td>
+</tr>
+<tr>
+<td width="169">
+<p><strong>Suggested Textbooks:</strong></p>
+</td>
+<td width="455">
+<p>Nemeth, E., Snyder, G., Hein, T., Whaley, B., &ldquo;UNIX and Linux System Administration Handbook&rdquo;, 5th Edition, Prentice Hall.</p>
+<p>Basta, A., Zgola, M. &ldquo;Database Security&rdquo;, Cengage Learning. 2012.</p>
+</td>
+</tr>
+<tr>
+<td width="169">
+<p><strong>Assessment:</strong></p>
+</td>
+<td width="455">
+<p>Examinations and practical assignments</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h1>Student Learning Outcomes</h1>
+<p>On completion of this course, students will demonstrate:</p>
+<ol>
+<li>Familiarity with system administration tasks, tools and techniques involved in the configuration and administration of heterogeneous networks of Windows and UNIX/Linux systems.</li>
+<li>Ability to apply security tools to provide a level of protection against external attacks on a computer network system.</li>
+<li>Ability to establish and secure local area networks of computer systems.</li>
+<li>Understanding of the tasks involved in management of data storage devices to implement appropriate access restriction and enable data recovery.</li>
+<li>Ability to install and configure common services for secure operation.</li>
+<li>Ability to monitor computer networks for the detection of unauthorized activities.</li>
+<li>Ability to design, deploy and secure databases.</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Assessment</strong></p>
+<p>The assessment process for the course consists of a midterm exam, a final exam, and up to 10 practical assignments.</p>
+<p>&nbsp;</p>
+<p>The contribution of each assessment item to the final grade is as shown below:</p>
+<table width="0">
+<tbody>
+<tr>
+<td width="39">
+<p>&nbsp;</p>
+</td>
+<td width="350">
+<p>Midterm Exam</p>
+</td>
+<td width="91">
+<p>20%</p>
+</td>
+</tr>
+<tr>
+<td width="39">
+<p>&nbsp;</p>
+</td>
+<td width="350">
+<p>Final Exam</p>
+</td>
+<td width="91">
+<p>20%</p>
+</td>
+</tr>
+<tr>
+<td width="39">
+<p>&nbsp;</p>
+</td>
+<td width="350">
+<p>Assignments</p>
+</td>
+<td width="91">
+<p>60%</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h1>Assignments</h1>
+<p>There will be up to 10 hands-on assignments.&nbsp; The table below describes the topics for each of the individual assignments. They are equally weighted and comprise 60% of the course grade.</p>
+<p>&nbsp;</p>
+<table width="0">
+<tbody>
+<tr>
+<td width="41"></td>
+<td width="109">
+<p>Assignment 1</p>
+</td>
+<td width="825">
+<p>Bash Script</p>
+</td>
+</tr>
+<tr>
+<td width="41"></td>
+<td width="109">
+<p>Assignment 2</p>
+</td>
+<td width="825">
+<p>Process Script</p>
+</td>
+</tr>
+<tr>
+<td width="41"></td>
+<td width="109">
+<p>Assignment 3</p>
+</td>
+<td width="825">
+<p>Database Design</p>
+</td>
+</tr>
+<tr>
+<td width="41"></td>
+<td width="109">
+<p>Assignment 4</p>
+</td>
+<td width="825">
+<p>Query Exercise</p>
+</td>
+</tr>
+<tr>
+<td width="41"></td>
+<td width="109">
+<p>Assignment 5</p>
+</td>
+<td width="825">
+<p>Cron Job for table maintenance (may remove)</p>
+</td>
+</tr>
+<tr>
+<td width="41"></td>
+<td width="109">
+<p>Assignment 6</p>
+</td>
+<td width="825">
+<p>Privilege Exercise (may remove)</p>
+</td>
+</tr>
+<tr>
+<td width="41"></td>
+<td width="109">
+<p>Assignment 7</p>
+</td>
+<td width="825">
+<p>PowerShell Program</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="109">
+<p>Assignment 8</p>
+</td>
+<td width="825">
+<p>Windows Services Policy&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="109">
+<p>Assignment 9</p>
+</td>
+<td width="825">
+<p>Network Exercise (may remove)</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="109">
+<p>Assignment 10</p>
+</td>
+<td width="825">
+<p>DB Vulnerability/Hardening Exercise</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Examinations</strong></p>
+<p>The midterm examination will be held during regular class time on Tuesday, May 14<sup>th</sup>, 2019.</p>
+<p>The final examination will be held on as per the published exam schedule.&nbsp; Tuesday, June 11 9:00 - 11:00 AM</p>
+<p>Failure to attend the mid-term examination will result in a score of 0.&nbsp; Failure to attend the final examination, in accordance with University policy, will result in an F grade for the course.</p>
+<p>&nbsp;</p>
+<p><strong>Grading Policy</strong></p>
+<p>Grades will be assigned on the total of the assessment items according to the following scheme:</p>
+<p><strong>Percentage&nbsp;&nbsp;&nbsp;&nbsp; Grade</strong></p>
+<p>90-100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A</p>
+<p>80-89&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B</p>
+<p>70-79&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C</p>
+<p>60-69&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D</p>
+<p>&lt;60&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F</p>
+<p>&nbsp;</p>
+<p>The use of &lsquo;+&rsquo; or &lsquo;-&lsquo; discriminators is completely at the discretion of the instructor.</p>
+<p>Work must be submitted on-time.&nbsp; Late work will have 10% deducted per 24 hour period, or portion of a 24 hour period it is late.&nbsp; For example, if an assignment is due at 12:00, an assignment submitted at 12:05 will have 10% of the score deducted from the grade for the assignment.</p>
+<p>If there is a need for a special accommodation for the late submission of an assignment, the student may make a request, in advance, to the instructor.&nbsp; The instructor may, at his discretion, choose to allow a late submission, or alter the due date of the assignment.</p>
+<p>&nbsp;</p>
+<p><strong>Attendance Policy</strong></p>
+<p>Attendance at lectures is not compulsory.&nbsp; However, students are responsible for ensuring that they keep up with course material and that they keep informed on class information, as presented in class or advised via the course web site.</p>
+<p>&nbsp;</p>
+<p><strong>Participation Policy</strong></p>
+<p>All students are expected to have completed any assigned readings prior to coming to class, and to participate fully in any activities and discussions in the classroom.&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Academic Dishonesty</strong></p>
+<p>Academic dishonesty is defined in the University Catalog as misrepresentation by deception or by other fraudulent means which compromises an instructor's ability to fairly evaluate a student's work or achievement.&nbsp; It is the instructor's responsibility to confront a student and to take appropriate action if academic dishonesty, in the instructor's judgment, has occurred.&nbsp; As a community, Western is committed to integrity in all aspects of academic and campus life. An excellent resource for guiding students is the Faculty Senate&rsquo;s Integrity website. (See <a href="http://www.wwu.edu/integrity/">Integrity</a>.) This site is a clearinghouse of resources about integrity. Besides covering more common problems related to academic integrity, such as plagiarism and cheating on exams, it also addresses ambiguous areas, such as collaborative work, the use of language translators, and submitting the same paper in different classes. Please refer to the University Catalog for further information.</p>
+<p>Any student who violates the University policy on academic dishonesty will receive an F for the course.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Syllabus Changes</strong></p>
+<p>&nbsp;</p>
+<p>This syllabus is subject to change. Changes, if any, will be announced in class. Students will be held responsible for all changes.</p>
+<p>&nbsp;</p>
+<p><strong>Detailed schedule</strong></p>
+<p>The distribution of topics over time is given in the table below.</p>
+<table style="border-collapse: collapse; margin: auto;" border="1">
+<tbody>
+<tr>
+<td style="width:5%; max-width: 30px">
+<p>#</p>
+</td>
+<td style="width:10%; max-width: 73px">
+<p>Day/Date</p>
+</td>
+<td style="width:20%; max-width: 137px">
+<p>Topic</p>
+</td>
+<td style="width:40%; max-width: 250px">
+<p>Sub-topic(s)/Readings</p>
+</td>
+<td style="width:15%; max-width: 106px">
+<p>Assignments</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>Tues<br />2 Apr</p>
+</td>
+<td>
+<p>Shell Scripts, Bash</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>4<sup>th</sup> Ed.&nbsp; Nemeth et al. Ch 1, 2 pp. 29&ndash;54, 73-74</p>
+<p>5<sup>th</sup> Ed. .&nbsp; Nemeth et al. Ch 1, 7 pp. 189&ndash;213, 73-74</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>Thu <br />4 Apr</p>
+</td>
+<td>
+<p>Access Control, Booting</p>
+</td>
+<td>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 3, 4</p>
+<p>5<sup>th</sup> Ed. Nemeth et al. Ch 2, 3, ?</p>
+</td>
+<td>
+<p>Bash Script<br />due 10 Apr</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>Tues<br /><span style="font-size: 1rem;">9 Apr</span></p>
+</td>
+<td>
+<p>Intro to Databases, Tables &amp; Relations</p>
+</td>
+<td>
+<p>Basta &amp; Zgola, pp 43-56.</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>Thu<br />11 Apr</p>
+</td>
+<td>
+<p>Designing Tables</p>
+</td>
+<td>
+<p>Basta &amp; Zgola, Ch 3.</p>
+</td>
+<td>
+<p>Database Design<br />due 17 Apr</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>5</p>
+</td>
+<td>
+<p>Tues<br />16 Apr</p>
+</td>
+<td>
+<p>Process Management</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 5, Ch 22 p. 902</p>
+<p>5<sup>th</sup> Ed. Nemeth et al. Ch 4 pp.90-108, Ch 27 p. 987-988</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>6</p>
+</td>
+<td>
+<p>Thu<br />18 Apr</p>
+</td>
+<td>
+<p>Files</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 6</p>
+<p>5<sup>th</sup> Ed. Nemeth et al. Ch 5</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>Process Script</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>9</p>
+</td>
+<td>
+<p>Tue<br />23 Apr</p>
+</td>
+<td>
+<p>Storage,<br />Users &amp; Authentication</p>
+</td>
+<td>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 8; Ch 7 &amp; Ch 22 pp 906-912, 921-923</p>
+<p>5<sup>th</sup> Ed. Nemeth et al. Ch 20; Ch 8 &amp; Ch 27 pp. 992-996</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>10</p>
+</td>
+<td>
+<p>Thu<br />25 Apr</p>
+</td>
+<td>
+<p>Users &amp; Authentication,<br />Timed events - cron, backups, syslog</p>
+</td>
+<td>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 7 &amp; Ch 22 pp 906-912, 921-923; Ch 9-11</p>
+<p>5<sup>th</sup> Ed. Nemeth et al. Ch 8 &amp; Ch 27 pp. 992-996; Ch 4 pp. 109-119, Ch 10</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>Cron Job for Table maint.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>13</p>
+</td>
+<td>
+<p>Tue<br />30 Apr</p>
+</td>
+<td>
+<p>Queries</p>
+</td>
+<td>
+<p><a href="https://sqlzoo.net/">http://sqlzoo.net/,</a> TBD</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>14</p>
+</td>
+<td>
+<p>Thu<br />2 May</p>
+</td>
+<td>
+<p>SQL for structure</p>
+</td>
+<td>
+<p>TBD</p>
+</td>
+<td>
+<p>Query Exercise</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>15</p>
+</td>
+<td>
+<p>Tue<br />7 May</p>
+</td>
+<td>
+<p>Software &amp; Maint</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 12, Ch 22 p. 901</p>
+<p>5<sup>th</sup> Ed. Nemeth et al. Ch 6, Ch 27 p. 987</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>16</p>
+</td>
+<td>
+<p>Thu<br />9 May</p>
+</td>
+<td>
+<p>Midterm Exam</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>22</p>
+</td>
+<td>
+<p>Tue<br />13 May</p>
+</td>
+<td>
+<p>Windows - Users &amp; Authentication</p>
+</td>
+<td>
+<p>TBD</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>24</p>
+</td>
+<td>
+<p>Thu<br />15 May</p>
+</td>
+<td>
+<p>Windows - Applications</p>
+<p>PPPR</p>
+</td>
+<td>
+<p>TBD</p>
+<p>&nbsp;</p>
+<p>Basta &amp; Zgola, Ch 6</p>
+</td>
+<td>
+<p>Privilege Exercise</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>25</p>
+</td>
+<td>
+<p>Tue<br />20 May</p>
+</td>
+<td>
+<p>Windows - Powershell</p>
+</td>
+<td>
+<p>TBD</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>26</p>
+</td>
+<td>
+<p>Thu<br />22 May</p>
+</td>
+<td>
+<p>Windows - Powershell II</p>
+</td>
+<td>
+<p>TBD</p>
+</td>
+<td>
+<p>PowerShell Program</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>27</p>
+</td>
+<td>
+<p>Tue<br />27 May</p>
+</td>
+<td>
+<p>Windows Services</p>
+<p>SQL Injection</p>
+</td>
+<td>
+<p>TBD</p>
+<p>Basta &amp; Zgola, Ch 7</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>28</p>
+</td>
+<td>
+<p>Thu<br />29 May</p>
+</td>
+<td>
+<p>Management Policies</p>
+<p>Network Config</p>
+</td>
+<td>
+<p>Nemeth 4th ed. Ch 32<br />Nemeth 5th ed. Ch 31</p>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 14 pp. 466-483.<br />5<sup>th</sup> Ed. Nemeth et al. Ch 13 pp. 375-416</p>
+</td>
+<td>
+<p>Windows Services Policy</p>
+<p>Network Exercise</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>29</p>
+</td>
+<td>
+<p>Tue<br />4 Jun</p>
+</td>
+<td>
+<p>DB Exploitation &amp; Defense</p>
+<p>Database Security Auditing &amp; Testing</p>
+</td>
+<td>
+<p>Basta &amp; Zgola, Ch 7 &amp; 8</p>
+<p>Basta &amp; Zgola, Ch 9 &amp; 10</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>30</p>
+</td>
+<td>
+<p>Thu<br />6 Jun</p>
+</td>
+<td>
+<p>DNS</p>
+<p>Green IT</p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 17<br /><span style="font-size: 1rem;">5</span><sup>th</sup><span style="font-size: 1rem;"> Ed. Nemeth et al. Ch 16</span></p>
+<p>4<sup>th</sup> Ed. Nemeth et al. Ch 27-28<br /><span style="font-size: 1rem;">5</span><sup>th</sup><span style="font-size: 1rem;"> Ed. Nemeth et al. Ch 30</span></p>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>DB Vulnerability Exercise</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>38</p>
+</td>
+<td>
+<p>Tue</p>
+<p>11 Jun</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>&nbsp;</p>
+</td>
+<td>
+<p>Final</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Adjustments to this schedule may be made based on the class needs.</p>
+</body>
+</html>
