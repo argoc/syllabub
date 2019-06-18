@@ -4,8 +4,8 @@ title: Syllabi
 description: Capturing current syllabi (past revs in repo history)
 ---
 
-[OC Course Schedule Planner](https://apps.olympic.edu/classschedule/Default.aspx) ||
-[WWU Time Table of Classes](https://admin.wwu.edu/pls/wwis/wwskcfnd.TimeTable)
+[OC Course Schedule Planner](https://apps.olympic.edu/classschedule/Default.aspx) <!-- ||
+[WWU Time Table of Classes](https://admin.wwu.edu/pls/wwis/wwskcfnd.TimeTable) -->
 
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Summer 2019 (links will be added once current syllabi are ready)
 
