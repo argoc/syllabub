@@ -9,7 +9,7 @@ description: Capturing current syllabi (past revs in repo history)
 
 Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Summer 2019 (links will be added once current syllabi are ready)
 
-- [OC CIS 155 Web Development I, Summer 2019](CIS155U19.html) NOT YET UPDATED FOR SUMMER
+- [OC CIS 155 Web Development I, Summer 2019](CIS155U19.html)
 - [OC CIS 295 Independent Study, Summer 2019](CIS295U19.html) NOT YET UPDATED FOR SUMMER
 
 Past Courses (my most recent offering, note may be currently offered by different instructors)
