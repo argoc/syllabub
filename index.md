@@ -7,15 +7,14 @@ description: Capturing current syllabi (past revs in repo history)
 [OC Course Schedule Planner](https://apps.olympic.edu/classschedule/Default.aspx) <!-- ||
 [WWU Time Table of Classes](https://admin.wwu.edu/pls/wwis/wwskcfnd.TimeTable) -->
 
-Current Quarter (so you can tell if I dropped the ball or just stopped doing this): Summer 2019 (links will be added once current syllabi are ready)
-
-- [OC CIS 155 Web Development I, Summer 2019](CIS155U19.html)
-- [OC CIS 295 Independent Study, Summer 2019](CIS295U19.html)
+Current Quarter (so you can tell if I dropped the ball or just stopped doing this): On leave for the 2019-2020 academic year.
 
 Past Courses (my most recent offering, note may be currently offered by different instructors)
 
 I make changes every quarter, so do not assume a syllabus below will be your syllabus.
 
+- [OC CIS 155 Web Development I, Summer 2019](CIS155U.html)
+- [OC CIS 295 Independent Study, Summer 2019](CIS295U19.html)
 - [OC CIS 143 Java II / Fundamentals of OOP, Spring 2019](CIS143.html)
 - [OC CS& 141, Computer Science I Java, Spring 2019](CS141.html)
 - [WWU CISS 349 Computer System Administration, Spring 2019 (from Canvas)](CISS349.html)
