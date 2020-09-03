@@ -4,10 +4,10 @@ title: Syllabi
 description: Capturing current syllabi (past revs in repo history)
 ---
 
-[OC Course Schedule Planner](https://apps.olympic.edu/classschedule/Default.aspx) <!-- ||
-[WWU Time Table of Classes](https://admin.wwu.edu/pls/wwis/wwskcfnd.TimeTable) -->
+[OC Course Schedule Planner](https://apps.olympic.edu/classschedule/Default.aspx) 
+[WWU Time Table of Classes](https://admin.wwu.edu/pls/wwis/wwskcfnd.TimeTable)
 
-Current Quarter (so you can tell if I dropped the ball or just stopped doing this): On leave for the 2019-2020 academic year.
+I am no longer at Olympic College or Western Washington University. Leaving this here in case past students need syllabi...
 
 Past Courses (my most recent offering, note may be currently offered by different instructors)
 
@@ -46,7 +46,7 @@ I make changes every quarter, so do not assume a syllabus below will be your syl
 
 ---
 
-For more information about me see [my faculty page](https://argoc.github.io/faculty)
+<!-- For more information about me see [my faculty page](https://argoc.github.io/faculty) -->
 
 
 Hosted on
